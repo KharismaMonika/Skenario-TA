@@ -74,25 +74,25 @@ $ns at 15.0 "$node_(1) setdest 45.0 285.0 5.0"
 $ns at 110.0 "$node_(0) setdest 480.0 300.0 5.0" 
 
 # Set a TCP connection between node_(0) and node_(1)
-# set tcp [new Agent/TCP/Newreno]
-# $tcp set class_ 2
-# set sink [new Agent/TCPSink]
-# $ns attach-agent $node_(0) $tcp
-# $ns attach-agent $node_(1) $sink
-# $ns connect $tcp $sink
-# set ftp [new Application/FTP]
-# $ftp attach-agent $tcp
-# $ns at 10.0 "$ftp start" 
+set tcp [new Agent/TCP/Newreno]
+$tcp set class_ 2
+set sink [new Agent/TCPSink]
+$ns attach-agent $node_(0) $tcp
+$ns attach-agent $node_(1) $sink
+$ns connect $tcp $sink
+set ftp [new Application/FTP]
+$ftp attach-agent $tcp
+$ns at 10.0 "$ftp start" 
 
 # Printing the window size
-# proc plotWindow {tcpSource file} {
-# global ns
-# set time 0.01
-# set now [$ns now]
-# set cwnd [$tcpSource set cwnd_]
-# puts $file "$now $cwnd"
-# $ns at [expr $now+$time] "plotWindow $tcpSource $file" }
-# $ns at 10.1 "plotWindow $tcp $windowVsTime2"  
+proc plotWindow {tcpSource file} {
+global ns
+set time 0.01
+set now [$ns now]
+set cwnd [$tcpSource set cwnd_]
+puts $file "$now $cwnd"
+$ns at [expr $now+$time] "plotWindow $tcpSource $file" }
+$ns at 10.1 "plotWindow $tcp $windowVsTime2"  
 
 # Define node initial position in nam
 for {set i 0} {$i < $val(nn)} { incr i } {

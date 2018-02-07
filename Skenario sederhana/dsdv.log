@@ -1,79 +1,127 @@
 
  
  DSDV_Agent::startUp 
-Speed : 0.000000 
- speed : 0.000000000000000
 
+ line 1394 
+time now = 0.00000 , myaddr: 0 , speed : 0.000000000000000
+
+ line 1426
+
+ line 1427 
+
+ line 1452
+
+ line 1459 
+
+ line 1460
  
  DSDV_Agent::startUp 
-Speed : 0.000000 
- speed : 0.000000000000000
 
+ line 1394 
+time now = 0.00000 , myaddr: 1 , speed : 0.000000000000000
+
+ line 1426
+
+ line 1427 
+
+ line 1452
+
+ line 1459 
+
+ line 1460
  
  DSDV_Agent::startUp 
-Speed : 0.000000 
- speed : 0.000000000000000
 
+ line 1394 
+time now = 0.00000 , myaddr: 2 , speed : 0.000000000000000
 
-DSDV_Agent::recv
-myaddr_: 0
-jika src = 0 adalah ipku 0 dan forward 
+ line 1426
 
+ line 1427 
 
-DSDV_Agent::recv
-myaddr_: 0
-jika src = 0 adalah ipku 0 dan forward 
+ line 1452
 
+ line 1459 
 
-DSDV_Agent::recv
-myaddr_: 0
-jika src = 0 adalah ipku 0 dan forward 
-
+ line 1460
 
 DSDV_Agent::updateRoute
-time: 25.37053, my addr: 2, speed : 0.000000000000000
-
-
-DSDV_Agent::needTriggeredUpdate
-myaddr_: 2
-time: 25.37053, my addr: 2, speed : 0.000000000000000
-
-
-DSDV_Agent::processUpdate
-time: 25.37053, my addr: 2, speed : 0.000000000000000
-
-
-DSDV_Agent::recv
-myaddr_: 2
-
-
-DSDV_Agent::updateRoute
-time: 26.38750, my addr: 0, speed : 3.000000000000000
+time: 26.64184, my addr: 0, speed : 3.000000000000000
 
 
 DSDV_Agent::needTriggeredUpdate
 myaddr_: 0
-time: 26.38750, my addr: 0, speed : 3.000000000000000
+time: 26.64184, my addr: 0, speed : 3.000000000000000
 
 
 DSDV_Agent::processUpdate
-time: 26.38750, my addr: 0, speed : 3.000000000000000
+time: 26.64184, my addr: 0, speed : 3.000000000000000
 
 
 DSDV_Agent::recv
 myaddr_: 0
 
 
+DSDV_Agent::updateRoute
+time: 27.18651, my addr: 2, speed : 0.000000000000000
+
+
+DSDV_Agent::needTriggeredUpdate
+myaddr_: 2
+time: 27.18651, my addr: 2, speed : 0.000000000000000
+
+
+DSDV_Agent::processUpdate
+time: 27.18651, my addr: 2, speed : 0.000000000000000
+
+
 DSDV_Agent::recv
-myaddr_: 0
-jika src = 0 adalah ipku 0 dan forward 
+myaddr_: 2
 
 
 DSDVTriggerHandler::handle
 
+ line 196
+ line 200
+ line 205
+ line 217
+ line 218
+ line 243
 
 DSDV_Agent::processUpdate
-time: 37.38102, my addr: 0, speed : 3.000000000000000
+time: 38.65175, my addr: 2, speed : 0.000000000000000
+
+
+DSDV_Agent::recv
+myaddr_: 2
+
+
+DSDV_Agent::updateRoute
+time: 38.84309, my addr: 2, speed : 0.000000000000000
+
+
+DSDV_Agent::processUpdate
+time: 38.84309, my addr: 2, speed : 0.000000000000000
+
+
+DSDV_Agent::recv
+myaddr_: 2
+
+
+DSDVTriggerHandler::handle
+
+ line 196
+ line 200
+ line 205
+ line 217
+ line 218
+
+DSDV_Agent::updateRoute
+time: 40.42656, my addr: 0, speed : 3.000000000000000
+
+
+DSDV_Agent::processUpdate
+time: 40.42656, my addr: 0, speed : 3.000000000000000
 
 
 DSDV_Agent::recv
@@ -81,20 +129,16 @@ myaddr_: 0
 
 
 DSDV_Agent::updateRoute
-time: 37.38102, my addr: 1, speed : 5.000000000000000
+time: 40.42656, my addr: 1, speed : 5.000000000000000
 
 
 DSDV_Agent::needTriggeredUpdate
 myaddr_: 1
-time: 37.38102, my addr: 1, speed : 5.000000000000000
-
-
-DSDV_Agent::updateRoute
-time: 37.38102, my addr: 1, speed : 5.000000000000000
+time: 40.42656, my addr: 1, speed : 5.000000000000000
 
 
 DSDV_Agent::processUpdate
-time: 37.38102, my addr: 1, speed : 5.000000000000000
+time: 40.42656, my addr: 1, speed : 5.000000000000000
 
 
 DSDV_Agent::recv
@@ -102,66 +146,97 @@ myaddr_: 1
 
 
 DSDV_Agent::updateRoute
-time: 37.42705, my addr: 2, speed : 0.000000000000000
+time: 40.57961, my addr: 2, speed : 0.000000000000000
+
+
+DSDV_Agent::needTriggeredUpdate
+myaddr_: 2
+time: 40.57961, my addr: 2, speed : 0.000000000000000
 
 
 DSDV_Agent::processUpdate
-time: 37.42705, my addr: 2, speed : 0.000000000000000
+time: 40.57961, my addr: 2, speed : 0.000000000000000
 
 
 DSDV_Agent::recv
 myaddr_: 2
 
+
+DSDV_Agent::updateRoute
+time: 50.31639, my addr: 2, speed : 0.000000000000000
+
+
+DSDV_Agent::processUpdate
+time: 50.31639, my addr: 2, speed : 0.000000000000000
+
+
+DSDV_Agent::recv
+myaddr_: 2
+
+
+DSDV_Agent::updateRoute
+time: 52.13682, my addr: 0, speed : 3.000000000000000
+
+
+DSDV_Agent::processUpdate
+time: 52.13682, my addr: 0, speed : 3.000000000000000
+
+
+DSDV_Agent::recv
+myaddr_: 0
+
+
+DSDV_Agent::updateRoute
+time: 52.13682, my addr: 1, speed : 5.000000000000000
+
+
+DSDV_Agent::processUpdate
+time: 52.13682, my addr: 1, speed : 5.000000000000000
+
+
+DSDV_Agent::recv
+myaddr_: 1
+
+
+DSDVTriggerHandler::handle
+
+ line 196
+ line 200
+ line 205
+ line 217
+ line 218
 
 DSDV_Agent::cancelTriggersBefore
 
 
 DSDVTriggerHandler::handle
 
-
-DSDV_Agent::processUpdate
-time: 38.42753, my addr: 2, speed : 0.000000000000000
-
-
-DSDV_Agent::recv
-myaddr_: 2
-
+ line 196
+ line 200
+ line 205
+ line 217
+ line 218
+ line 243
 
 DSDV_Agent::updateRoute
-time: 40.04698, my addr: 2, speed : 0.000000000000000
+time: 53.13721, my addr: 0, speed : 3.000000000000000
 
 
 DSDV_Agent::needTriggeredUpdate
-myaddr_: 2
-time: 40.04698, my addr: 2, speed : 0.000000000000000
+myaddr_: 0
+time: 53.13721, my addr: 0, speed : 3.000000000000000
 
 
 DSDV_Agent::processUpdate
-time: 40.04698, my addr: 2, speed : 0.000000000000000
-
-
-DSDV_Agent::recv
-myaddr_: 2
-
-
-DSDV_Agent::updateRoute
-time: 40.49459, my addr: 0, speed : 3.000000000000000
-
-
-DSDV_Agent::processUpdate
-time: 40.49459, my addr: 0, speed : 3.000000000000000
+time: 53.13721, my addr: 0, speed : 3.000000000000000
 
 
 DSDV_Agent::recv
 myaddr_: 0
 
 
-DSDV_Agent::updateRoute
-time: 40.49459, my addr: 1, speed : 5.000000000000000
-
-
 DSDV_Agent::processUpdate
-time: 40.49459, my addr: 1, speed : 5.000000000000000
+time: 53.13721, my addr: 1, speed : 5.000000000000000
 
 
 DSDV_Agent::recv
@@ -169,86 +244,162 @@ myaddr_: 1
 
 
 DSDV_Agent::updateRoute
-time: 48.71882, my addr: 2, speed : 0.000000000000000
+time: 53.87529, my addr: 2, speed : 0.000000000000000
 
 
 DSDV_Agent::processUpdate
-time: 48.71882, my addr: 2, speed : 0.000000000000000
+time: 53.87529, my addr: 2, speed : 0.000000000000000
 
 
 DSDV_Agent::recv
 myaddr_: 2
+
+
+DSDV_Agent::updateRoute
+time: 63.16594, my addr: 2, speed : 0.000000000000000
+
+
+DSDV_Agent::processUpdate
+time: 63.16594, my addr: 2, speed : 0.000000000000000
+
+
+DSDV_Agent::recv
+myaddr_: 2
+
+
+DSDV_Agent::updateRoute
+time: 63.16594, my addr: 1, speed : 5.000000000000000
+
+
+DSDV_Agent::needTriggeredUpdate
+myaddr_: 1
+time: 63.16594, my addr: 1, speed : 5.000000000000000
+
+
+DSDV_Agent::processUpdate
+time: 63.16594, my addr: 1, speed : 5.000000000000000
+
+
+DSDV_Agent::recv
+myaddr_: 1
 
 
 DSDVTriggerHandler::handle
 
+ line 196
+ line 200
+ line 205
+ line 217
+ line 218
+ line 243
 
 DSDV_Agent::processUpdate
-time: 49.38438, my addr: 2, speed : 0.000000000000000
+time: 65.13911, my addr: 2, speed : 0.000000000000000
 
 
 DSDV_Agent::recv
 myaddr_: 2
+
+
+DSDV_Agent::processUpdate
+time: 65.13911, my addr: 1, speed : 5.000000000000000
+
+
+DSDV_Agent::recv
+myaddr_: 1
+
+
+DSDV_Agent::updateRoute
+time: 65.46557, my addr: 2, speed : 0.000000000000000
+
+
+DSDV_Agent::processUpdate
+time: 65.46557, my addr: 2, speed : 0.000000000000000
+
+
+DSDV_Agent::recv
+myaddr_: 2
+
+
+DSDV_Agent::updateRoute
+time: 65.46557, my addr: 0, speed : 3.000000000000000
+
+
+DSDV_Agent::processUpdate
+time: 65.46557, my addr: 0, speed : 3.000000000000000
+
+
+DSDV_Agent::recv
+myaddr_: 0
+
+
+DSDV_Agent::updateRoute
+time: 66.33698, my addr: 1, speed : 5.000000000000000
+
+
+DSDV_Agent::processUpdate
+time: 66.33698, my addr: 1, speed : 5.000000000000000
+
+
+DSDV_Agent::recv
+myaddr_: 1
+
+
+DSDV_Agent::updateRoute
+time: 66.33698, my addr: 0, speed : 3.000000000000000
+
+
+DSDV_Agent::processUpdate
+time: 66.33698, my addr: 0, speed : 3.000000000000000
+
+
+DSDV_Agent::recv
+myaddr_: 0
 
 
 DSDVTriggerHandler::handle
 
+ line 196
+ line 200
+ line 205
+ line 217
+ line 218
+ line 243
+
+DSDV_Agent::processUpdate
+time: 75.17489, my addr: 2, speed : 0.000000000000000
+
+
+DSDV_Agent::recv
+myaddr_: 2
+
+
+DSDV_Agent::processUpdate
+time: 75.17489, my addr: 0, speed : 3.000000000000000
+
+
+DSDV_Agent::recv
+myaddr_: 0
+
 
 DSDV_Agent::updateRoute
-time: 52.05786, my addr: 0, speed : 3.000000000000000
-
-
-DSDV_Agent::forwardPacket
-ini fungsi forward paket 
-destination : 1 
-
-
-DSDV_Agent::recv
-myaddr_: 0
-jika src = 0 adalah ipku 0 dan forward 
-
-
-DSDV_Agent::forwardPacket
-ini fungsi forward paket 
-destination : 1 
-
-
-DSDV_Agent::recv
-myaddr_: 0
-jika src = 0 adalah ipku 0 dan forward 
-
-
-DSDV_Agent::forwardPacket
-ini fungsi forward paket 
-destination : 1 
-
-
-DSDV_Agent::recv
-myaddr_: 0
-jika src = 0 adalah ipku 0 dan forward 
-
-
-DSDV_Agent::forwardPacket
-ini fungsi forward paket 
-destination : 1 
-
-
-DSDV_Agent::recv
-myaddr_: 0
-jika src = 0 adalah ipku 0 dan forward 
+time: 76.40975, my addr: 2, speed : 0.000000000000000
 
 
 DSDV_Agent::processUpdate
-time: 52.05786, my addr: 0, speed : 3.000000000000000
-recv : give the packets to ourselves to forward
+time: 76.40975, my addr: 2, speed : 0.000000000000000
 
 
 DSDV_Agent::recv
-myaddr_: 0
+myaddr_: 2
+
+
+DSDV_Agent::updateRoute
+time: 76.40975, my addr: 1, speed : 5.000000000000000
 
 
 DSDV_Agent::processUpdate
-time: 52.05786, my addr: 1, speed : 5.000000000000000
+time: 76.40975, my addr: 1, speed : 5.000000000000000
 
 
 DSDV_Agent::recv
@@ -256,69 +407,11 @@ myaddr_: 1
 
 
 DSDV_Agent::updateRoute
-time: 53.33375, my addr: 2, speed : 0.000000000000000
+time: 78.91467, my addr: 1, speed : 5.000000000000000
 
 
 DSDV_Agent::processUpdate
-time: 53.33375, my addr: 2, speed : 0.000000000000000
-
-
-DSDV_Agent::recv
-myaddr_: 2
-
-
-DSDV_Agent::updateRoute
-time: 53.33970, my addr: 0, speed : 3.000000000000000
-
-
-DSDV_Agent::processUpdate
-time: 53.33970, my addr: 0, speed : 3.000000000000000
-
-
-DSDV_Agent::recv
-myaddr_: 0
-
-
-DSDV_Agent::updateRoute
-time: 53.33970, my addr: 1, speed : 5.000000000000000
-
-
-DSDV_Agent::processUpdate
-time: 53.33970, my addr: 1, speed : 5.000000000000000
-
-
-DSDV_Agent::recv
-myaddr_: 1
-
-
-DSDV_Agent::forwardPacket
-ini fungsi forward paket 
-destination : 1 
-
-
-DSDV_Agent::recv
-myaddr_: 0
-jika src = 0 adalah ipku 0 dan forward 
-
-
-DSDV_Agent::updateRoute
-time: 62.91795, my addr: 2, speed : 0.000000000000000
-
-
-DSDV_Agent::processUpdate
-time: 62.91795, my addr: 2, speed : 0.000000000000000
-
-
-DSDV_Agent::recv
-myaddr_: 2
-
-
-DSDV_Agent::updateRoute
-time: 62.91795, my addr: 1, speed : 5.000000000000000
-
-
-DSDV_Agent::processUpdate
-time: 62.91795, my addr: 1, speed : 5.000000000000000
+time: 78.91467, my addr: 1, speed : 5.000000000000000
 
 
 DSDV_Agent::recv
@@ -326,11 +419,59 @@ myaddr_: 1
 
 
 DSDV_Agent::updateRoute
-time: 64.92475, my addr: 1, speed : 5.000000000000000
+time: 78.91467, my addr: 0, speed : 3.000000000000000
 
 
 DSDV_Agent::processUpdate
-time: 64.92475, my addr: 1, speed : 5.000000000000000
+time: 78.91467, my addr: 0, speed : 3.000000000000000
+
+
+DSDV_Agent::recv
+myaddr_: 0
+
+
+DSDV_Agent::updateRoute
+time: 79.98849, my addr: 2, speed : 0.000000000000000
+
+
+DSDV_Agent::processUpdate
+time: 79.98849, my addr: 2, speed : 0.000000000000000
+
+
+DSDV_Agent::recv
+myaddr_: 2
+
+
+DSDV_Agent::updateRoute
+time: 79.98849, my addr: 0, speed : 3.000000000000000
+
+
+DSDV_Agent::processUpdate
+time: 79.98849, my addr: 0, speed : 3.000000000000000
+
+
+DSDV_Agent::recv
+myaddr_: 0
+
+
+DSDV_Agent::updateRoute
+time: 89.70719, my addr: 2, speed : 0.000000000000000
+
+
+DSDV_Agent::processUpdate
+time: 89.70719, my addr: 2, speed : 0.000000000000000
+
+
+DSDV_Agent::recv
+myaddr_: 2
+
+
+DSDV_Agent::updateRoute
+time: 89.70719, my addr: 1, speed : 5.000000000000000
+
+
+DSDV_Agent::processUpdate
+time: 89.70719, my addr: 1, speed : 5.000000000000000
 
 
 DSDV_Agent::recv
@@ -338,63 +479,11 @@ myaddr_: 1
 
 
 DSDV_Agent::updateRoute
-time: 64.92475, my addr: 0, speed : 3.000000000000000
-
-
-DSDV_Agent::updateRoute
-time: 64.92475, my addr: 0, speed : 3.000000000000000
+time: 91.41152, my addr: 1, speed : 5.000000000000000
 
 
 DSDV_Agent::processUpdate
-time: 64.92475, my addr: 0, speed : 3.000000000000000
-
-
-DSDV_Agent::recv
-myaddr_: 0
-
-
-DSDV_Agent::updateRoute
-time: 67.83514, my addr: 2, speed : 0.000000000000000
-
-
-DSDV_Agent::processUpdate
-time: 67.83514, my addr: 2, speed : 0.000000000000000
-
-
-DSDV_Agent::recv
-myaddr_: 2
-
-
-DSDV_Agent::updateRoute
-time: 67.83514, my addr: 0, speed : 3.000000000000000
-
-
-DSDV_Agent::processUpdate
-time: 67.83514, my addr: 0, speed : 3.000000000000000
-
-
-DSDV_Agent::recv
-myaddr_: 0
-
-
-DSDV_Agent::updateRoute
-time: 77.44651, my addr: 2, speed : 0.000000000000000
-
-
-DSDV_Agent::processUpdate
-time: 77.44651, my addr: 2, speed : 0.000000000000000
-
-
-DSDV_Agent::recv
-myaddr_: 2
-
-
-DSDV_Agent::updateRoute
-time: 77.44651, my addr: 1, speed : 5.000000000000000
-
-
-DSDV_Agent::processUpdate
-time: 77.44651, my addr: 1, speed : 5.000000000000000
+time: 91.41152, my addr: 1, speed : 5.000000000000000
 
 
 DSDV_Agent::recv
@@ -402,11 +491,59 @@ myaddr_: 1
 
 
 DSDV_Agent::updateRoute
-time: 77.50511, my addr: 1, speed : 5.000000000000000
+time: 91.41152, my addr: 0, speed : 3.000000000000000
 
 
 DSDV_Agent::processUpdate
-time: 77.50511, my addr: 1, speed : 5.000000000000000
+time: 91.41152, my addr: 0, speed : 3.000000000000000
+
+
+DSDV_Agent::recv
+myaddr_: 0
+
+
+DSDV_Agent::updateRoute
+time: 92.61567, my addr: 2, speed : 0.000000000000000
+
+
+DSDV_Agent::processUpdate
+time: 92.61567, my addr: 2, speed : 0.000000000000000
+
+
+DSDV_Agent::recv
+myaddr_: 2
+
+
+DSDV_Agent::updateRoute
+time: 92.61567, my addr: 0, speed : 3.000000000000000
+
+
+DSDV_Agent::processUpdate
+time: 92.61567, my addr: 0, speed : 3.000000000000000
+
+
+DSDV_Agent::recv
+myaddr_: 0
+
+
+DSDV_Agent::updateRoute
+time: 102.78012, my addr: 0, speed : 3.000000000000000
+
+
+DSDV_Agent::processUpdate
+time: 102.78012, my addr: 0, speed : 3.000000000000000
+
+
+DSDV_Agent::recv
+myaddr_: 0
+
+
+DSDV_Agent::updateRoute
+time: 102.78012, my addr: 1, speed : 5.000000000000000
+
+
+DSDV_Agent::processUpdate
+time: 102.78012, my addr: 1, speed : 5.000000000000000
 
 
 DSDV_Agent::recv
@@ -414,23 +551,11 @@ myaddr_: 1
 
 
 DSDV_Agent::updateRoute
-time: 77.50511, my addr: 0, speed : 3.000000000000000
+time: 104.25948, my addr: 2, speed : 0.000000000000000
 
 
 DSDV_Agent::processUpdate
-time: 77.50511, my addr: 0, speed : 3.000000000000000
-
-
-DSDV_Agent::recv
-myaddr_: 0
-
-
-DSDV_Agent::updateRoute
-time: 81.56910, my addr: 2, speed : 0.000000000000000
-
-
-DSDV_Agent::processUpdate
-time: 81.56910, my addr: 2, speed : 0.000000000000000
+time: 104.25948, my addr: 2, speed : 0.000000000000000
 
 
 DSDV_Agent::recv
@@ -438,35 +563,11 @@ myaddr_: 2
 
 
 DSDV_Agent::updateRoute
-time: 81.56910, my addr: 0, speed : 3.000000000000000
+time: 104.25948, my addr: 1, speed : 5.000000000000000
 
 
 DSDV_Agent::processUpdate
-time: 81.56910, my addr: 0, speed : 3.000000000000000
-
-
-DSDV_Agent::recv
-myaddr_: 0
-
-
-DSDV_Agent::updateRoute
-time: 90.10062, my addr: 2, speed : 0.000000000000000
-
-
-DSDV_Agent::processUpdate
-time: 90.10062, my addr: 2, speed : 0.000000000000000
-
-
-DSDV_Agent::recv
-myaddr_: 2
-
-
-DSDV_Agent::updateRoute
-time: 90.10062, my addr: 1, speed : 5.000000000000000
-
-
-DSDV_Agent::processUpdate
-time: 90.10062, my addr: 1, speed : 5.000000000000000
+time: 104.25948, my addr: 1, speed : 5.000000000000000
 
 
 DSDV_Agent::recv
@@ -474,11 +575,47 @@ myaddr_: 1
 
 
 DSDV_Agent::updateRoute
-time: 91.36067, my addr: 1, speed : 5.000000000000000
+time: 105.81509, my addr: 2, speed : 0.000000000000000
 
 
 DSDV_Agent::processUpdate
-time: 91.36067, my addr: 1, speed : 5.000000000000000
+time: 105.81509, my addr: 2, speed : 0.000000000000000
+
+
+DSDV_Agent::recv
+myaddr_: 2
+
+
+DSDV_Agent::updateRoute
+time: 105.81509, my addr: 0, speed : 3.000000000000000
+
+
+DSDV_Agent::processUpdate
+time: 105.81509, my addr: 0, speed : 3.000000000000000
+
+
+DSDV_Agent::recv
+myaddr_: 0
+
+
+DSDV_Agent::updateRoute
+time: 115.68833, my addr: 0, speed : 5.000000000000000
+
+
+DSDV_Agent::processUpdate
+time: 115.68833, my addr: 0, speed : 5.000000000000000
+
+
+DSDV_Agent::recv
+myaddr_: 0
+
+
+DSDV_Agent::updateRoute
+time: 115.68833, my addr: 1, speed : 5.000000000000000
+
+
+DSDV_Agent::processUpdate
+time: 115.68833, my addr: 1, speed : 5.000000000000000
 
 
 DSDV_Agent::recv
@@ -486,23 +623,11 @@ myaddr_: 1
 
 
 DSDV_Agent::updateRoute
-time: 91.36067, my addr: 0, speed : 3.000000000000000
+time: 118.59112, my addr: 2, speed : 0.000000000000000
 
 
 DSDV_Agent::processUpdate
-time: 91.36067, my addr: 0, speed : 3.000000000000000
-
-
-DSDV_Agent::recv
-myaddr_: 0
-
-
-DSDV_Agent::updateRoute
-time: 93.96414, my addr: 2, speed : 0.000000000000000
-
-
-DSDV_Agent::processUpdate
-time: 93.96414, my addr: 2, speed : 0.000000000000000
+time: 118.59112, my addr: 2, speed : 0.000000000000000
 
 
 DSDV_Agent::recv
@@ -510,34 +635,23 @@ myaddr_: 2
 
 
 DSDV_Agent::updateRoute
-time: 93.96414, my addr: 0, speed : 3.000000000000000
+time: 118.59112, my addr: 0, speed : 5.000000000000000
 
 
 DSDV_Agent::processUpdate
-time: 93.96414, my addr: 0, speed : 3.000000000000000
+time: 118.59112, my addr: 0, speed : 5.000000000000000
 
 
 DSDV_Agent::recv
 myaddr_: 0
-
-
-DSDV_Agent::forwardPacket
-ini fungsi forward paket 
-destination : 1 
-Else maka : next_hop_ = 1 
-
-
-DSDV_Agent::recv
-myaddr_: 0
-jika src = 0 adalah ipku 0 dan forward 
 
 
 DSDV_Agent::updateRoute
-time: 104.64629, my addr: 2, speed : 0.000000000000000
+time: 118.88133, my addr: 2, speed : 0.000000000000000
 
 
 DSDV_Agent::processUpdate
-time: 104.64629, my addr: 2, speed : 0.000000000000000
+time: 118.88133, my addr: 2, speed : 0.000000000000000
 
 
 DSDV_Agent::recv
@@ -545,11 +659,11 @@ myaddr_: 2
 
 
 DSDV_Agent::updateRoute
-time: 104.64629, my addr: 1, speed : 5.000000000000000
+time: 118.88133, my addr: 1, speed : 5.000000000000000
 
 
 DSDV_Agent::processUpdate
-time: 104.64629, my addr: 1, speed : 5.000000000000000
+time: 118.88133, my addr: 1, speed : 5.000000000000000
 
 
 DSDV_Agent::recv
@@ -557,23 +671,11 @@ myaddr_: 1
 
 
 DSDV_Agent::updateRoute
-time: 105.45158, my addr: 0, speed : 3.000000000000000
+time: 129.27376, my addr: 1, speed : 5.000000000000000
 
 
 DSDV_Agent::processUpdate
-time: 105.45158, my addr: 0, speed : 3.000000000000000
-
-
-DSDV_Agent::recv
-myaddr_: 0
-
-
-DSDV_Agent::updateRoute
-time: 105.45158, my addr: 1, speed : 5.000000000000000
-
-
-DSDV_Agent::processUpdate
-time: 105.45158, my addr: 1, speed : 5.000000000000000
+time: 129.27376, my addr: 1, speed : 5.000000000000000
 
 
 DSDV_Agent::recv
@@ -581,11 +683,23 @@ myaddr_: 1
 
 
 DSDV_Agent::updateRoute
-time: 106.90568, my addr: 2, speed : 0.000000000000000
+time: 129.27376, my addr: 0, speed : 5.000000000000000
 
 
 DSDV_Agent::processUpdate
-time: 106.90568, my addr: 2, speed : 0.000000000000000
+time: 129.27376, my addr: 0, speed : 5.000000000000000
+
+
+DSDV_Agent::recv
+myaddr_: 0
+
+
+DSDV_Agent::updateRoute
+time: 130.08706, my addr: 2, speed : 0.000000000000000
+
+
+DSDV_Agent::processUpdate
+time: 130.08706, my addr: 2, speed : 0.000000000000000
 
 
 DSDV_Agent::recv
@@ -593,35 +707,27 @@ myaddr_: 2
 
 
 DSDV_Agent::updateRoute
-time: 106.90568, my addr: 0, speed : 3.000000000000000
+time: 132.30981, my addr: 2, speed : 0.000000000000000
 
 
 DSDV_Agent::processUpdate
-time: 106.90568, my addr: 0, speed : 3.000000000000000
+time: 132.30981, my addr: 2, speed : 0.000000000000000
 
 
 DSDV_Agent::recv
-myaddr_: 0
+myaddr_: 2
 
 
 DSDV_Agent::updateRoute
-time: 117.50190, my addr: 0, speed : 5.000000000000000
-
-
-DSDV_Agent::processUpdate
-time: 117.50190, my addr: 0, speed : 5.000000000000000
-
-
-DSDV_Agent::recv
-myaddr_: 0
+time: 140.74405, my addr: 1, speed : 5.000000000000000
 
 
 DSDV_Agent::updateRoute
-time: 117.50190, my addr: 1, speed : 5.000000000000000
+time: 140.74405, my addr: 1, speed : 5.000000000000000
 
 
 DSDV_Agent::processUpdate
-time: 117.50190, my addr: 1, speed : 5.000000000000000
+time: 140.74405, my addr: 1, speed : 5.000000000000000
 
 
 DSDV_Agent::recv
@@ -629,47 +735,15 @@ myaddr_: 1
 
 
 DSDV_Agent::updateRoute
-time: 117.53184, my addr: 2, speed : 0.000000000000000
-
-
-DSDV_Agent::processUpdate
-time: 117.53184, my addr: 2, speed : 0.000000000000000
-
-
-DSDV_Agent::recv
-myaddr_: 2
+time: 140.74405, my addr: 0, speed : 5.000000000000000
 
 
 DSDV_Agent::updateRoute
-time: 117.53184, my addr: 1, speed : 5.000000000000000
+time: 140.74405, my addr: 0, speed : 5.000000000000000
 
 
 DSDV_Agent::processUpdate
-time: 117.53184, my addr: 1, speed : 5.000000000000000
-
-
-DSDV_Agent::recv
-myaddr_: 1
-
-
-DSDV_Agent::updateRoute
-time: 120.91619, my addr: 2, speed : 0.000000000000000
-
-
-DSDV_Agent::processUpdate
-time: 120.91619, my addr: 2, speed : 0.000000000000000
-
-
-DSDV_Agent::recv
-myaddr_: 2
-
-
-DSDV_Agent::updateRoute
-time: 120.91619, my addr: 0, speed : 5.000000000000000
-
-
-DSDV_Agent::processUpdate
-time: 120.91619, my addr: 0, speed : 5.000000000000000
+time: 140.74405, my addr: 0, speed : 5.000000000000000
 
 
 DSDV_Agent::recv
@@ -677,11 +751,11 @@ myaddr_: 0
 
 
 DSDV_Agent::updateRoute
-time: 129.44443, my addr: 2, speed : 0.000000000000000
+time: 142.96150, my addr: 2, speed : 0.000000000000000
 
 
 DSDV_Agent::processUpdate
-time: 129.44443, my addr: 2, speed : 0.000000000000000
+time: 142.96150, my addr: 2, speed : 0.000000000000000
 
 
 DSDV_Agent::recv
@@ -689,219 +763,358 @@ myaddr_: 2
 
 
 DSDV_Agent::updateRoute
-time: 131.94068, my addr: 1, speed : 5.000000000000000
+time: 145.28467, my addr: 2, speed : 0.000000000000000
 
 
 DSDV_Agent::processUpdate
-time: 131.94068, my addr: 1, speed : 5.000000000000000
-
-
-DSDV_Agent::recv
-myaddr_: 1
-
-
-DSDV_Agent::updateRoute
-time: 131.94068, my addr: 0, speed : 5.000000000000000
-
-
-DSDV_Agent::processUpdate
-time: 131.94068, my addr: 0, speed : 5.000000000000000
-
-
-DSDV_Agent::recv
-myaddr_: 0
-
-
-DSDV_Agent::updateRoute
-time: 134.81322, my addr: 2, speed : 0.000000000000000
-
-
-DSDV_Agent::processUpdate
-time: 134.81322, my addr: 2, speed : 0.000000000000000
+time: 145.28467, my addr: 2, speed : 0.000000000000000
 
 
 DSDV_Agent::recv
 myaddr_: 2
 
+ line 83 
 
-DSDV_Agent::updateRoute
-time: 141.97011, my addr: 2, speed : 0.000000000000000
-
-
-DSDV_Agent::processUpdate
-time: 141.97011, my addr: 2, speed : 0.000000000000000
-
-
-DSDV_Agent::recv
-myaddr_: 2
-
-
-DSDV_Agent::updateRoute
-time: 144.04576, my addr: 1, speed : 5.000000000000000
-
-
-DSDV_Agent::processUpdate
-time: 144.04576, my addr: 1, speed : 5.000000000000000
-
-
-DSDV_Agent::recv
-myaddr_: 1
-
-
-DSDV_Agent::updateRoute
-time: 144.04576, my addr: 0, speed : 5.000000000000000
-
-
-DSDV_Agent::updateRoute
-time: 144.04576, my addr: 0, speed : 5.000000000000000
-
-
-DSDV_Agent::processUpdate
-time: 144.04576, my addr: 0, speed : 5.000000000000000
-
-
-DSDV_Agent::recv
-myaddr_: 0
-
-
-DSDV_Agent::updateRoute
-time: 149.44607, my addr: 2, speed : 0.000000000000000
-
-
-DSDV_Agent::processUpdate
-time: 149.44607, my addr: 2, speed : 0.000000000000000
-
-
-DSDV_Agent::recv
-myaddr_: 2
+ line 83 
 
  
  DSDV_Agent::helper_callback
 
- 
- DSDV_Agent::helper_callback
+ periodic_callback
+
+ line 83 
+
+ line 83 
 
  
  DSDV_Agent::helper_callback
 
- 
- DSDV_Agent::helper_callback
+ periodic_callback
+
+ line 83 
+
+ line 83 
 
  
  DSDV_Agent::helper_callback
 
- 
- DSDV_Agent::helper_callback
+ periodic_callback
+
+ line 83 
+
+ line 83 
 
  
  DSDV_Agent::helper_callback
 
- 
- DSDV_Agent::helper_callback
+ periodic_callback
+
+ line 83 
+
+ line 83 
 
  
  DSDV_Agent::helper_callback
 
- 
- DSDV_Agent::helper_callback
+ periodic_callback
+
+ line 83 
+
+ line 83 
 
  
  DSDV_Agent::helper_callback
 
- 
- DSDV_Agent::helper_callback
+ periodic_callback
+
+ line 83 
+
+ line 83 
 
  
  DSDV_Agent::helper_callback
 
- 
- DSDV_Agent::helper_callback
+ periodic_callback
+
+ line 83 
+
+ line 83 
 
  
  DSDV_Agent::helper_callback
 
- 
- DSDV_Agent::helper_callback
+ periodic_callback
+
+ line 83 
+
+ line 83 
 
  
  DSDV_Agent::helper_callback
 
- 
- DSDV_Agent::helper_callback
+ periodic_callback
+
+ line 83 
+
+ line 83 
 
  
  DSDV_Agent::helper_callback
 
- 
- DSDV_Agent::helper_callback
+ periodic_callback
+
+ line 83 
+
+ line 83 
 
  
  DSDV_Agent::helper_callback
 
- 
- DSDV_Agent::helper_callback
+ periodic_callback
+
+ line 83 
+
+ line 83 
 
  
  DSDV_Agent::helper_callback
 
- 
- DSDV_Agent::helper_callback
+ periodic_callback
+
+ line 83 
+
+ line 83 
 
  
  DSDV_Agent::helper_callback
 
+ periodic_callback
+
+ line 83 
+
+ line 83 
+
  
  DSDV_Agent::helper_callback
+
+ periodic_callback
+
+ line 83 
+
+ line 83 
+
+ 
+ DSDV_Agent::helper_callback
+
+ periodic_callback
+
+ line 83 
+
+ line 83 
+
+ 
+ DSDV_Agent::helper_callback
+
+ periodic_callback
+
+ line 83 
+
+ line 83 
+
+ 
+ DSDV_Agent::helper_callback
+
+ periodic_callback
+
+ line 83 
+
+ line 83 
+
+ 
+ DSDV_Agent::helper_callback
+
+ periodic_callback
+
+ line 83 
+
+ line 83 
+
+ line 83 
+
+ 
+ DSDV_Agent::helper_callback
+
+ periodic_callback
+
+ line 83 
+
+ line 83 
+
+ 
+ DSDV_Agent::helper_callback
+
+ periodic_callback
+
+ line 83 
+
+ line 83 
+
+ line 83 
+
+ 
+ DSDV_Agent::helper_callback
+
+ periodic_callback
+
+ line 83 
+
+ line 83 
+
+ 
+ DSDV_Agent::helper_callback
+
+ periodic_callback
+
+ line 83 
 
 
 DSDVTriggerHandler::handle
 
- 
- DSDV_Agent::helper_callback
+ line 196
+ line 200
+ line 205
+ line 212
+ line 213
+ line 83 
 
-
-DSDV_Agent::forwardPacket
-ini fungsi forward paket 
-destination : 1 
-
- 
- DSDV_Agent::helper_callback
+ line 83 
 
  
  DSDV_Agent::helper_callback
 
- 
- DSDV_Agent::helper_callback
+ periodic_callback
 
+ line 83 
 
-DSDV_Agent::forwardPacket
-ini fungsi forward paket 
-destination : 1 
+ line 83 
 
  
  DSDV_Agent::helper_callback
 
- 
- DSDV_Agent::helper_callback
+ periodic_callback
 
+ line 83 
 
-DSDV_Agent::forwardPacket
-ini fungsi forward paket 
-destination : 1 
+ line 83 
 
  
  DSDV_Agent::helper_callback
 
+ periodic_callback
 
-DSDV_Agent::forwardPacket
-ini fungsi forward paket 
-destination : 1 
+ line 83 
 
- 
- DSDV_Agent::helper_callback
+ line 83 
 
  
  DSDV_Agent::helper_callback
 
+ periodic_callback
+
+ line 83 
+
+ line 83 
+
  
  DSDV_Agent::helper_callback
+
+ periodic_callback
+
+ line 83 
+
+ line 83 
+
+ line 83 
+
+ 
+ DSDV_Agent::helper_callback
+
+ periodic_callback
+
+ line 83 
+
+ line 83 
+
+ 
+ DSDV_Agent::helper_callback
+
+ periodic_callback
+
+ line 83 
+
+ line 83 
+
+ 
+ DSDV_Agent::helper_callback
+
+ periodic_callback
+
+ line 83 
+
+ line 83 
+
+ 
+ DSDV_Agent::helper_callback
+
+ periodic_callback
+
+ line 83 
+
+ line 83 
+
+ 
+ DSDV_Agent::helper_callback
+
+ periodic_callback
+
+ line 83 
+
+ line 83 
+
+ 
+ DSDV_Agent::helper_callback
+
+ periodic_callback
+
+ line 83 
+
+ line 83 
+
+ 
+ DSDV_Agent::helper_callback
+
+ periodic_callback
+
+ line 83 
+
+ line 83 
+
+ 
+ DSDV_Agent::helper_callback
+
+ periodic_callback
+
+ line 83 
+
+ line 83 
+
+ 
+ DSDV_Agent::helper_callback
+
+ periodic_callback
+
+ line 83 
+
+ line 83 
+
+ line 83 
