@@ -10,7 +10,7 @@ set val(ifq)            Queue/DropTail/PriQueue    ;# interface queue type
 set val(ll)             LL                         ;# link layer type
 set val(ant)            Antenna/OmniAntenna        ;# antenna model
 set val(ifqlen)         50                         ;# max packet in ifq
-set val(nn)             2                          ;# number of mobilenodes
+set val(nn)             3                          ;# number of mobilenodes
 set val(rp)             DSDV                       ;# routing protocol
 set val(x)              500   			   ;# X dimension of topography
 set val(y)              400   			   ;# Y dimension of topography  
@@ -56,21 +56,21 @@ create-god $val(nn)
 	}
 
 # Provide initial location of mobilenodes
-$node_(0) set X_ 5.0
-$node_(0) set Y_ 5.0
+$node_(0) set X_ 1.0
+$node_(0) set Y_ 240.0
 $node_(0) set Z_ 0.0
 
-$node_(1) set X_ 490.0
-$node_(1) set Y_ 285.0
+$node_(1) set X_ 400.0
+$node_(1) set Y_ 240.0
 $node_(1) set Z_ 0.0
 
-# $node_(2) set X_ 150.0
-# $node_(2) set Y_ 240.0
-# $node_(2) set Z_ 0.0
+$node_(2) set X_ 200.0
+$node_(2) set Y_ 240.0
+$node_(2) set Z_ 0.0
 
 # Generation of movements
-$ns at 50.0 "$node_(0) setdest 250.0 250.0 3.0"
-$ns at 65.0 "$node_(1) setdest 45.0 285.0 5.0"
+# $ns at 50.0 "$node_(0) setdest 250.0 250.0 3.0"
+# $ns at 65.0 "$node_(1) setdest 45.0 285.0 5.0"
 # $ns at 110.0 "$node_(0) setdest 480.0 300.0 5.0" 
 
 # Set a TCP connection between node_(0) and node_(1)
@@ -94,11 +94,12 @@ $ns at 65.0 "$node_(1) setdest 45.0 285.0 5.0"
 # $ns at [expr $now+$time] "plotWindow $tcpSource $file" }
 # $ns at 10.1 "plotWindow $tcp $windowVsTime2"  
 
-# Define node initial position in nam
-for {set i 0} {$i < $val(nn)} { incr i } {
-# 30 defines the node size for nam
-$ns initial_node_pos $node_($i) 30
-}
+# # Define node initial position in nam.
+# ukuran node
+ for {set i 0} {$i < $val(nn)} { incr i } {
+# # 30 defines the node size for nam
+ $ns initial_node_pos $node_($i) 30
+ }
 
 # Telling nodes when the simulation ends
 for {set i 0} {$i < $val(nn) } { incr i } {
