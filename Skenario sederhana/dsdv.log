@@ -22,98 +22,107 @@ new event periodic callback line 1459
 memulai periodic callback line 1460
 
 DSDV_Agent::updateRoute
-time: 0.00238, my addr: 2, speed : 0.000000000000000
+time: 0.00238, my addr: 2, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
 
 
 DSDV_Agent::needTriggeredUpdate
  Jika tidak ada triggered update yg tertunda, tetangga udah ga ada update lagi
-time: 0.00238, my addr: 2, speed : 0.000000000000000
+time: 0.00238, my addr: 2, speed : 0.000000000000000 ,perup: 15.000000 minup: 3.000000 
 penjadwalan trigger update
 
 
 DSDV_Agent::processUpdate
 ini fungsi untuk update RoutingTable di setiap node, menggunakan algoritma djikstra
-time: 0.00238, my addr: 2, speed : 0.000000000000000
+time: 0.00238, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 rte yg akan di update
 pointer ke rte, buat nampung sementara
 dia tdk kenal node itu sebelumnya
 update rute lagi
+penjadwalan timeout untuk tetangga ini
 
 
 DSDV_Agent::recv
 myaddr_: 2
+time: 0.00238, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
 
 DSDV_Agent::updateRoute
-time: 0.03775, my addr: 0, speed : 0.000000000000000
+time: 0.03775, my addr: 0, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
 
 
 DSDV_Agent::needTriggeredUpdate
  Jika tidak ada triggered update yg tertunda, tetangga udah ga ada update lagi
-time: 0.03775, my addr: 0, speed : 0.000000000000000
+time: 0.03775, my addr: 0, speed : 0.000000000000000 ,perup: 15.000000 minup: 3.000000 
 penjadwalan trigger update
 
 
 DSDV_Agent::processUpdate
 ini fungsi untuk update RoutingTable di setiap node, menggunakan algoritma djikstra
-time: 0.03775, my addr: 0, speed : 0.000000000000000
+time: 0.03775, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 rte yg akan di update
 pointer ke rte, buat nampung sementara
 dia tdk kenal node itu sebelumnya
 update rute lagi
+penjadwalan timeout untuk tetangga ini
 
 
 DSDV_Agent::recv
 myaddr_: 0
+time: 0.03775, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
 
 DSDV_Agent::updateRoute
-time: 0.03775, my addr: 1, speed : 0.000000000000000
+time: 0.03775, my addr: 1, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
 
 
 DSDV_Agent::needTriggeredUpdate
  Jika tidak ada triggered update yg tertunda, tetangga udah ga ada update lagi
-time: 0.03775, my addr: 1, speed : 0.000000000000000
+time: 0.03775, my addr: 1, speed : 0.000000000000000 ,perup: 15.000000 minup: 3.000000 
 penjadwalan trigger update
 
 
 DSDV_Agent::processUpdate
 ini fungsi untuk update RoutingTable di setiap node, menggunakan algoritma djikstra
-time: 0.03775, my addr: 1, speed : 0.000000000000000
+time: 0.03775, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 rte yg akan di update
 pointer ke rte, buat nampung sementara
 dia tdk kenal node itu sebelumnya
 update rute lagi
+penjadwalan timeout untuk tetangga ini
 
 
 DSDV_Agent::recv
 myaddr_: 1
+time: 0.03775, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
 
 DSDV_Agent::updateRoute
-time: 1.12149, my addr: 2, speed : 0.000000000000000
+time: 1.12149, my addr: 2, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
 
 
 DSDV_Agent::needTriggeredUpdate
  Jika tidak ada triggered update yg tertunda, tetangga udah ga ada update lagi
-time: 1.12149, my addr: 2, speed : 0.000000000000000
+time: 1.12149, my addr: 2, speed : 0.000000000000000 ,perup: 15.000000 minup: 3.000000 
 penjadwalan trigger update
 
 
 DSDV_Agent::processUpdate
 ini fungsi untuk update RoutingTable di setiap node, menggunakan algoritma djikstra
-time: 1.12149, my addr: 2, speed : 0.000000000000000
+time: 1.12149, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 rte yg akan di update
 pointer ke rte, buat nampung sementara
 dia tdk kenal node itu sebelumnya
 update rute lagi
+penjadwalan timeout untuk tetangga ini
 
 
 DSDV_Agent::recv
 myaddr_: 2
+time: 1.12149, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
 
 DSDVTriggerHandler::handle
+(myaddr: 2)-->triggered update with 
 
  line 196
  line 200
@@ -124,39 +133,44 @@ DSDVTriggerHandler::handle
 
 DSDV_Agent::processUpdate
 ini fungsi untuk update RoutingTable di setiap node, menggunakan algoritma djikstra
-time: 12.00458, my addr: 0, speed : 0.000000000000000
+time: 12.00458, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 rte yg akan di update
 pointer ke rte, buat nampung sementara
+penjadwalan timeout untuk tetangga ini
 
 
 DSDV_Agent::recv
 myaddr_: 0
+time: 12.00458, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
 
 DSDV_Agent::updateRoute
-time: 12.00458, my addr: 1, speed : 0.000000000000000
+time: 12.00458, my addr: 1, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
 
 
 DSDV_Agent::needTriggeredUpdate
  Jika tidak ada triggered update yg tertunda, tetangga udah ga ada update lagi
-time: 12.00458, my addr: 1, speed : 0.000000000000000
+time: 12.00458, my addr: 1, speed : 0.000000000000000 ,perup: 15.000000 minup: 3.000000 
 penjadwalan trigger update
 
 
 DSDV_Agent::processUpdate
 ini fungsi untuk update RoutingTable di setiap node, menggunakan algoritma djikstra
-time: 12.00458, my addr: 1, speed : 0.000000000000000
+time: 12.00458, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 rte yg akan di update
 pointer ke rte, buat nampung sementara
 dia tdk kenal node itu sebelumnya
 update rute lagi
+penjadwalan timeout untuk tetangga ini
 
 
 DSDV_Agent::recv
 myaddr_: 1
+time: 12.00458, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
 
 DSDVTriggerHandler::handle
+(myaddr: 0)-->triggered update with 
 
  line 196
  line 200
@@ -166,6 +180,7 @@ DSDVTriggerHandler::handle
  line 243
 
 DSDVTriggerHandler::handle
+(myaddr: 1)-->triggered update with 
 
  line 196
  line 200
@@ -176,94 +191,107 @@ DSDVTriggerHandler::handle
 
 DSDV_Agent::processUpdate
 ini fungsi untuk update RoutingTable di setiap node, menggunakan algoritma djikstra
-time: 12.03984, my addr: 2, speed : 0.000000000000000
+time: 12.03984, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 rte yg akan di update
 pointer ke rte, buat nampung sementara
+penjadwalan timeout untuk tetangga ini
 
 
 DSDV_Agent::recv
 myaddr_: 2
+time: 12.03984, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
 
 DSDV_Agent::processUpdate
 ini fungsi untuk update RoutingTable di setiap node, menggunakan algoritma djikstra
-time: 12.04117, my addr: 2, speed : 0.000000000000000
+time: 12.04117, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 rte yg akan di update
 pointer ke rte, buat nampung sementara
+penjadwalan timeout untuk tetangga ini
 
 
 DSDV_Agent::recv
 myaddr_: 2
+time: 12.04117, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
 
 DSDV_Agent::updateRoute
-time: 12.16445, my addr: 0, speed : 0.000000000000000
+time: 12.16445, my addr: 0, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
 
 
 DSDV_Agent::processUpdate
 ini fungsi untuk update RoutingTable di setiap node, menggunakan algoritma djikstra
-time: 12.16445, my addr: 0, speed : 0.000000000000000
+time: 12.16445, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 rte yg akan di update
 pointer ke rte, buat nampung sementara
 seqnum tdk sama, seqnum baru
+penjadwalan timeout untuk tetangga ini
 
 
 DSDV_Agent::recv
 myaddr_: 0
+time: 12.16445, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
 
 DSDV_Agent::updateRoute
-time: 12.16445, my addr: 1, speed : 0.000000000000000
+time: 12.16445, my addr: 1, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
 
 
 DSDV_Agent::processUpdate
 ini fungsi untuk update RoutingTable di setiap node, menggunakan algoritma djikstra
-time: 12.16445, my addr: 1, speed : 0.000000000000000
+time: 12.16445, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 rte yg akan di update
 pointer ke rte, buat nampung sementara
 seqnum tdk sama, seqnum baru
+penjadwalan timeout untuk tetangga ini
 
 
 DSDV_Agent::recv
 myaddr_: 1
+time: 12.16445, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
 
 DSDV_Agent::updateRoute
-time: 12.91466, my addr: 2, speed : 0.000000000000000
+time: 12.91466, my addr: 2, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
 
 
 DSDV_Agent::processUpdate
 ini fungsi untuk update RoutingTable di setiap node, menggunakan algoritma djikstra
-time: 12.91466, my addr: 2, speed : 0.000000000000000
+time: 12.91466, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 rte yg akan di update
 pointer ke rte, buat nampung sementara
 seqnum tdk sama, seqnum baru
+penjadwalan timeout untuk tetangga ini
 
 
 DSDV_Agent::recv
 myaddr_: 2
+time: 12.91466, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
 
 DSDV_Agent::updateRoute
-time: 12.98504, my addr: 2, speed : 0.000000000000000
+time: 12.98504, my addr: 2, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
 
 
 DSDV_Agent::processUpdate
 ini fungsi untuk update RoutingTable di setiap node, menggunakan algoritma djikstra
-time: 12.98504, my addr: 2, speed : 0.000000000000000
+time: 12.98504, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 rte yg akan di update
 pointer ke rte, buat nampung sementara
 seqnum tdk sama, seqnum baru
+penjadwalan timeout untuk tetangga ini
 
 
 DSDV_Agent::recv
 myaddr_: 2
+time: 12.98504, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
 
 DSDV_Agent::cancelTriggersBefore
 
 
 DSDVTriggerHandler::handle
+(myaddr: 2)-->triggered update with 
 
  line 196
  line 200
@@ -272,6 +300,7 @@ DSDVTriggerHandler::handle
  line 218
 
 DSDVTriggerHandler::handle
+(myaddr: 1)-->triggered update with 
 
  line 196
  line 200
@@ -282,136 +311,151 @@ DSDVTriggerHandler::handle
 
 DSDV_Agent::processUpdate
 ini fungsi untuk update RoutingTable di setiap node, menggunakan algoritma djikstra
-time: 24.00679, my addr: 2, speed : 0.000000000000000
+time: 24.00679, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 rte yg akan di update
 pointer ke rte, buat nampung sementara
 seqnum tdk sama, seqnum baru
+penjadwalan timeout untuk tetangga ini
 
 
 DSDV_Agent::recv
 myaddr_: 2
+time: 24.00679, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
 
 DSDV_Agent::updateRoute
-time: 24.97942, my addr: 2, speed : 0.000000000000000
+time: 24.97942, my addr: 2, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
 
 
 DSDV_Agent::processUpdate
 ini fungsi untuk update RoutingTable di setiap node, menggunakan algoritma djikstra
-time: 24.97942, my addr: 2, speed : 0.000000000000000
+time: 24.97942, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 rte yg akan di update
 pointer ke rte, buat nampung sementara
 seqnum tdk sama, seqnum baru
+penjadwalan timeout untuk tetangga ini
 
 
 DSDV_Agent::recv
 myaddr_: 2
+time: 24.97942, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
 
 DSDV_Agent::updateRoute
-time: 25.15794, my addr: 0, speed : 0.000000000000000
+time: 25.15794, my addr: 0, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
 
 
 DSDV_Agent::needTriggeredUpdate
  Jika tidak ada triggered update yg tertunda, tetangga udah ga ada update lagi
-time: 25.15794, my addr: 0, speed : 0.000000000000000
+time: 25.15794, my addr: 0, speed : 0.000000000000000 ,perup: 15.000000 minup: 3.000000 
 penjadwalan trigger update
 
 
 DSDV_Agent::updateRoute
-time: 25.15794, my addr: 0, speed : 0.000000000000000
+time: 25.15794, my addr: 0, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
 
 
 DSDV_Agent::processUpdate
 ini fungsi untuk update RoutingTable di setiap node, menggunakan algoritma djikstra
-time: 25.15794, my addr: 0, speed : 0.000000000000000
+time: 25.15794, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 rte yg akan di update
 pointer ke rte, buat nampung sementara
 dia tdk kenal node itu sebelumnya
 update rute lagi
 seqnum tdk sama, seqnum baru
+penjadwalan timeout untuk tetangga ini
 
 
 DSDV_Agent::recv
 myaddr_: 0
+time: 25.15794, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
 
 DSDV_Agent::updateRoute
-time: 25.15794, my addr: 1, speed : 0.000000000000000
+time: 25.15794, my addr: 1, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
 
 
 DSDV_Agent::processUpdate
 ini fungsi untuk update RoutingTable di setiap node, menggunakan algoritma djikstra
-time: 25.15794, my addr: 1, speed : 0.000000000000000
+time: 25.15794, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 rte yg akan di update
 pointer ke rte, buat nampung sementara
 seqnum tdk sama, seqnum baru
+penjadwalan timeout untuk tetangga ini
 
 
 DSDV_Agent::recv
 myaddr_: 1
+time: 25.15794, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
 
 DSDV_Agent::updateRoute
-time: 27.08810, my addr: 2, speed : 0.000000000000000
+time: 27.08810, my addr: 2, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
 
 
 DSDV_Agent::processUpdate
 ini fungsi untuk update RoutingTable di setiap node, menggunakan algoritma djikstra
-time: 27.08810, my addr: 2, speed : 0.000000000000000
+time: 27.08810, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 rte yg akan di update
 pointer ke rte, buat nampung sementara
 seqnum tdk sama, seqnum baru
 seqnum tdk sama, seqnum baru
+penjadwalan timeout untuk tetangga ini
 
 
 DSDV_Agent::recv
 myaddr_: 2
+time: 27.08810, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
 
 DSDV_Agent::updateRoute
-time: 36.45341, my addr: 0, speed : 0.000000000000000
+time: 36.45341, my addr: 0, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
 
 
 DSDV_Agent::updateRoute
-time: 36.45341, my addr: 0, speed : 0.000000000000000
+time: 36.45341, my addr: 0, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
 
 
 DSDV_Agent::processUpdate
 ini fungsi untuk update RoutingTable di setiap node, menggunakan algoritma djikstra
-time: 36.45341, my addr: 0, speed : 0.000000000000000
+time: 36.45341, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 rte yg akan di update
 pointer ke rte, buat nampung sementara
 seqnum tdk sama, seqnum baru
 seqnum tdk sama, seqnum baru
+penjadwalan timeout untuk tetangga ini
 
 
 DSDV_Agent::recv
 myaddr_: 0
+time: 36.45341, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
 
 DSDV_Agent::updateRoute
-time: 36.45341, my addr: 1, speed : 0.000000000000000
+time: 36.45341, my addr: 1, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
 
 
 DSDV_Agent::updateRoute
-time: 36.45341, my addr: 1, speed : 0.000000000000000
+time: 36.45341, my addr: 1, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
 
 
 DSDV_Agent::processUpdate
 ini fungsi untuk update RoutingTable di setiap node, menggunakan algoritma djikstra
-time: 36.45341, my addr: 1, speed : 0.000000000000000
+time: 36.45341, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 rte yg akan di update
 pointer ke rte, buat nampung sementara
 seqnum tdk sama, seqnum baru
 seqnum tdk sama, seqnum baru
+penjadwalan timeout untuk tetangga ini
 
 
 DSDV_Agent::recv
 myaddr_: 1
+time: 36.45341, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
 
 DSDVTriggerHandler::handle
+(myaddr: 0)-->triggered update with 
 
  line 196
  line 200
@@ -420,800 +464,899 @@ DSDVTriggerHandler::handle
  line 218
 
 DSDV_Agent::updateRoute
-time: 39.77330, my addr: 2, speed : 0.000000000000000
+time: 39.77330, my addr: 2, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
 
 
 DSDV_Agent::processUpdate
 ini fungsi untuk update RoutingTable di setiap node, menggunakan algoritma djikstra
-time: 39.77330, my addr: 2, speed : 0.000000000000000
+time: 39.77330, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 rte yg akan di update
 pointer ke rte, buat nampung sementara
 seqnum tdk sama, seqnum baru
+penjadwalan timeout untuk tetangga ini
 
 
 DSDV_Agent::recv
 myaddr_: 2
+time: 39.77330, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
 
 DSDV_Agent::updateRoute
-time: 40.85197, my addr: 2, speed : 0.000000000000000
+time: 40.85197, my addr: 2, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
 
 
 DSDV_Agent::processUpdate
 ini fungsi untuk update RoutingTable di setiap node, menggunakan algoritma djikstra
-time: 40.85197, my addr: 2, speed : 0.000000000000000
+time: 40.85197, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 rte yg akan di update
 pointer ke rte, buat nampung sementara
 seqnum tdk sama, seqnum baru
+penjadwalan timeout untuk tetangga ini
 
 
 DSDV_Agent::recv
 myaddr_: 2
+time: 40.85197, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
 
 DSDV_Agent::updateRoute
-time: 50.99217, my addr: 0, speed : 0.000000000000000
+time: 50.99217, my addr: 0, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
 
 
 DSDV_Agent::updateRoute
-time: 50.99217, my addr: 0, speed : 0.000000000000000
+time: 50.99217, my addr: 0, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
 
 
 DSDV_Agent::processUpdate
 ini fungsi untuk update RoutingTable di setiap node, menggunakan algoritma djikstra
-time: 50.99217, my addr: 0, speed : 0.000000000000000
+time: 50.99217, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 rte yg akan di update
 pointer ke rte, buat nampung sementara
 seqnum tdk sama, seqnum baru
 seqnum tdk sama, seqnum baru
+penjadwalan timeout untuk tetangga ini
 
 
 DSDV_Agent::recv
 myaddr_: 0
+time: 50.99217, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
 
 DSDV_Agent::updateRoute
-time: 50.99217, my addr: 1, speed : 0.000000000000000
+time: 50.99217, my addr: 1, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
 
 
 DSDV_Agent::updateRoute
-time: 50.99217, my addr: 1, speed : 0.000000000000000
+time: 50.99217, my addr: 1, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
 
 
 DSDV_Agent::processUpdate
 ini fungsi untuk update RoutingTable di setiap node, menggunakan algoritma djikstra
-time: 50.99217, my addr: 1, speed : 0.000000000000000
+time: 50.99217, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 rte yg akan di update
 pointer ke rte, buat nampung sementara
 seqnum tdk sama, seqnum baru
 seqnum tdk sama, seqnum baru
+penjadwalan timeout untuk tetangga ini
 
 
 DSDV_Agent::recv
 myaddr_: 1
+time: 50.99217, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
 
 DSDV_Agent::updateRoute
-time: 51.12712, my addr: 2, speed : 0.000000000000000
+time: 51.12712, my addr: 2, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
 
 
 DSDV_Agent::processUpdate
 ini fungsi untuk update RoutingTable di setiap node, menggunakan algoritma djikstra
-time: 51.12712, my addr: 2, speed : 0.000000000000000
+time: 51.12712, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 rte yg akan di update
 pointer ke rte, buat nampung sementara
 seqnum tdk sama, seqnum baru
+penjadwalan timeout untuk tetangga ini
 
 
 DSDV_Agent::recv
 myaddr_: 2
+time: 51.12712, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
 
 DSDV_Agent::updateRoute
-time: 55.65201, my addr: 2, speed : 0.000000000000000
+time: 55.65201, my addr: 2, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
 
 
 DSDV_Agent::processUpdate
 ini fungsi untuk update RoutingTable di setiap node, menggunakan algoritma djikstra
-time: 55.65201, my addr: 2, speed : 0.000000000000000
+time: 55.65201, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 rte yg akan di update
 pointer ke rte, buat nampung sementara
 seqnum tdk sama, seqnum baru
+penjadwalan timeout untuk tetangga ini
 
 
 DSDV_Agent::recv
 myaddr_: 2
+time: 55.65201, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
 
 DSDV_Agent::updateRoute
-time: 62.56990, my addr: 2, speed : 0.000000000000000
+time: 62.56990, my addr: 2, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
 
 
 DSDV_Agent::processUpdate
 ini fungsi untuk update RoutingTable di setiap node, menggunakan algoritma djikstra
-time: 62.56990, my addr: 2, speed : 0.000000000000000
+time: 62.56990, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 rte yg akan di update
 pointer ke rte, buat nampung sementara
 seqnum tdk sama, seqnum baru
 seqnum tdk sama, seqnum baru
+penjadwalan timeout untuk tetangga ini
 
 
 DSDV_Agent::recv
 myaddr_: 2
+time: 62.56990, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
 
 DSDV_Agent::updateRoute
-time: 62.91272, my addr: 0, speed : 0.000000000000000
+time: 62.91272, my addr: 0, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
 
 
 DSDV_Agent::updateRoute
-time: 62.91272, my addr: 0, speed : 0.000000000000000
+time: 62.91272, my addr: 0, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
 
 
 DSDV_Agent::processUpdate
 ini fungsi untuk update RoutingTable di setiap node, menggunakan algoritma djikstra
-time: 62.91272, my addr: 0, speed : 0.000000000000000
+time: 62.91272, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 rte yg akan di update
 pointer ke rte, buat nampung sementara
 seqnum tdk sama, seqnum baru
 seqnum tdk sama, seqnum baru
+penjadwalan timeout untuk tetangga ini
 
 
 DSDV_Agent::recv
 myaddr_: 0
+time: 62.91272, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
 
 DSDV_Agent::updateRoute
-time: 62.91272, my addr: 1, speed : 0.000000000000000
+time: 62.91272, my addr: 1, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
 
 
 DSDV_Agent::processUpdate
 ini fungsi untuk update RoutingTable di setiap node, menggunakan algoritma djikstra
-time: 62.91272, my addr: 1, speed : 0.000000000000000
+time: 62.91272, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 rte yg akan di update
 pointer ke rte, buat nampung sementara
 seqnum tdk sama, seqnum baru
+penjadwalan timeout untuk tetangga ini
 
 
 DSDV_Agent::recv
 myaddr_: 1
+time: 62.91272, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
 
 DSDV_Agent::updateRoute
-time: 68.48252, my addr: 2, speed : 0.000000000000000
+time: 68.48252, my addr: 2, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
 
 
 DSDV_Agent::processUpdate
 ini fungsi untuk update RoutingTable di setiap node, menggunakan algoritma djikstra
-time: 68.48252, my addr: 2, speed : 0.000000000000000
+time: 68.48252, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 rte yg akan di update
 pointer ke rte, buat nampung sementara
 seqnum tdk sama, seqnum baru
 seqnum tdk sama, seqnum baru
+penjadwalan timeout untuk tetangga ini
 
 
 DSDV_Agent::recv
 myaddr_: 2
+time: 68.48252, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
 
 DSDV_Agent::updateRoute
-time: 76.54453, my addr: 2, speed : 0.000000000000000
+time: 76.54453, my addr: 2, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
 
 
 DSDV_Agent::processUpdate
 ini fungsi untuk update RoutingTable di setiap node, menggunakan algoritma djikstra
-time: 76.54453, my addr: 2, speed : 0.000000000000000
+time: 76.54453, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 rte yg akan di update
 pointer ke rte, buat nampung sementara
 seqnum tdk sama, seqnum baru
 seqnum tdk sama, seqnum baru
+penjadwalan timeout untuk tetangga ini
 
 
 DSDV_Agent::recv
 myaddr_: 2
+time: 76.54453, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
 
 DSDV_Agent::updateRoute
-time: 77.16378, my addr: 0, speed : 0.000000000000000
+time: 77.16378, my addr: 0, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
 
 
 DSDV_Agent::updateRoute
-time: 77.16378, my addr: 0, speed : 0.000000000000000
+time: 77.16378, my addr: 0, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
 
 
 DSDV_Agent::processUpdate
 ini fungsi untuk update RoutingTable di setiap node, menggunakan algoritma djikstra
-time: 77.16378, my addr: 0, speed : 0.000000000000000
+time: 77.16378, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 rte yg akan di update
 pointer ke rte, buat nampung sementara
 seqnum tdk sama, seqnum baru
 seqnum tdk sama, seqnum baru
+penjadwalan timeout untuk tetangga ini
 
 
 DSDV_Agent::recv
 myaddr_: 0
+time: 77.16378, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
 
 DSDV_Agent::updateRoute
-time: 77.16378, my addr: 1, speed : 0.000000000000000
+time: 77.16378, my addr: 1, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
 
 
 DSDV_Agent::processUpdate
 ini fungsi untuk update RoutingTable di setiap node, menggunakan algoritma djikstra
-time: 77.16378, my addr: 1, speed : 0.000000000000000
+time: 77.16378, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 rte yg akan di update
 pointer ke rte, buat nampung sementara
 seqnum tdk sama, seqnum baru
+penjadwalan timeout untuk tetangga ini
 
 
 DSDV_Agent::recv
 myaddr_: 1
+time: 77.16378, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
 
 DSDV_Agent::updateRoute
-time: 82.66381, my addr: 2, speed : 0.000000000000000
+time: 82.66381, my addr: 2, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
 
 
 DSDV_Agent::processUpdate
 ini fungsi untuk update RoutingTable di setiap node, menggunakan algoritma djikstra
-time: 82.66381, my addr: 2, speed : 0.000000000000000
+time: 82.66381, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 rte yg akan di update
 pointer ke rte, buat nampung sementara
 seqnum tdk sama, seqnum baru
 seqnum tdk sama, seqnum baru
+penjadwalan timeout untuk tetangga ini
 
 
 DSDV_Agent::recv
 myaddr_: 2
+time: 82.66381, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
 
 DSDV_Agent::updateRoute
-time: 89.66226, my addr: 0, speed : 0.000000000000000
+time: 89.66226, my addr: 0, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
 
 
 DSDV_Agent::updateRoute
-time: 89.66226, my addr: 0, speed : 0.000000000000000
+time: 89.66226, my addr: 0, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
 
 
 DSDV_Agent::processUpdate
 ini fungsi untuk update RoutingTable di setiap node, menggunakan algoritma djikstra
-time: 89.66226, my addr: 0, speed : 0.000000000000000
+time: 89.66226, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 rte yg akan di update
 pointer ke rte, buat nampung sementara
 seqnum tdk sama, seqnum baru
 seqnum tdk sama, seqnum baru
+penjadwalan timeout untuk tetangga ini
 
 
 DSDV_Agent::recv
 myaddr_: 0
+time: 89.66226, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
 
 DSDV_Agent::updateRoute
-time: 89.66226, my addr: 1, speed : 0.000000000000000
+time: 89.66226, my addr: 1, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
 
 
 DSDV_Agent::updateRoute
-time: 89.66226, my addr: 1, speed : 0.000000000000000
+time: 89.66226, my addr: 1, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
 
 
 DSDV_Agent::processUpdate
 ini fungsi untuk update RoutingTable di setiap node, menggunakan algoritma djikstra
-time: 89.66226, my addr: 1, speed : 0.000000000000000
+time: 89.66226, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 rte yg akan di update
 pointer ke rte, buat nampung sementara
 seqnum tdk sama, seqnum baru
 seqnum tdk sama, seqnum baru
+penjadwalan timeout untuk tetangga ini
 
 
 DSDV_Agent::recv
 myaddr_: 1
+time: 89.66226, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
 
 DSDV_Agent::updateRoute
-time: 89.84023, my addr: 2, speed : 0.000000000000000
+time: 89.84023, my addr: 2, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
 
 
 DSDV_Agent::processUpdate
 ini fungsi untuk update RoutingTable di setiap node, menggunakan algoritma djikstra
-time: 89.84023, my addr: 2, speed : 0.000000000000000
+time: 89.84023, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 rte yg akan di update
 pointer ke rte, buat nampung sementara
 seqnum tdk sama, seqnum baru
+penjadwalan timeout untuk tetangga ini
 
 
 DSDV_Agent::recv
 myaddr_: 2
+time: 89.84023, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
 
 DSDV_Agent::updateRoute
-time: 95.29090, my addr: 2, speed : 0.000000000000000
+time: 95.29090, my addr: 2, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
 
 
 DSDV_Agent::processUpdate
 ini fungsi untuk update RoutingTable di setiap node, menggunakan algoritma djikstra
-time: 95.29090, my addr: 2, speed : 0.000000000000000
+time: 95.29090, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 rte yg akan di update
 pointer ke rte, buat nampung sementara
 seqnum tdk sama, seqnum baru
+penjadwalan timeout untuk tetangga ini
 
 
 DSDV_Agent::recv
 myaddr_: 2
+time: 95.29090, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
 
 DSDV_Agent::updateRoute
-time: 101.20893, my addr: 2, speed : 0.000000000000000
+time: 101.20893, my addr: 2, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
 
 
 DSDV_Agent::processUpdate
 ini fungsi untuk update RoutingTable di setiap node, menggunakan algoritma djikstra
-time: 101.20893, my addr: 2, speed : 0.000000000000000
+time: 101.20893, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 rte yg akan di update
 pointer ke rte, buat nampung sementara
 seqnum tdk sama, seqnum baru
 seqnum tdk sama, seqnum baru
+penjadwalan timeout untuk tetangga ini
 
 
 DSDV_Agent::recv
 myaddr_: 2
+time: 101.20893, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
 
 DSDV_Agent::updateRoute
-time: 104.21455, my addr: 0, speed : 0.000000000000000
+time: 104.21455, my addr: 0, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
 
 
 DSDV_Agent::updateRoute
-time: 104.21455, my addr: 0, speed : 0.000000000000000
+time: 104.21455, my addr: 0, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
 
 
 DSDV_Agent::processUpdate
 ini fungsi untuk update RoutingTable di setiap node, menggunakan algoritma djikstra
-time: 104.21455, my addr: 0, speed : 0.000000000000000
+time: 104.21455, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 rte yg akan di update
 pointer ke rte, buat nampung sementara
 seqnum tdk sama, seqnum baru
 seqnum tdk sama, seqnum baru
+penjadwalan timeout untuk tetangga ini
 
 
 DSDV_Agent::recv
 myaddr_: 0
+time: 104.21455, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
 
 DSDV_Agent::updateRoute
-time: 104.21455, my addr: 1, speed : 0.000000000000000
+time: 104.21455, my addr: 1, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
 
 
 DSDV_Agent::processUpdate
 ini fungsi untuk update RoutingTable di setiap node, menggunakan algoritma djikstra
-time: 104.21455, my addr: 1, speed : 0.000000000000000
+time: 104.21455, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 rte yg akan di update
 pointer ke rte, buat nampung sementara
 seqnum tdk sama, seqnum baru
+penjadwalan timeout untuk tetangga ini
 
 
 DSDV_Agent::recv
 myaddr_: 1
+time: 104.21455, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
 
 DSDV_Agent::updateRoute
-time: 108.49041, my addr: 2, speed : 0.000000000000000
+time: 108.49041, my addr: 2, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
 
 
 DSDV_Agent::processUpdate
 ini fungsi untuk update RoutingTable di setiap node, menggunakan algoritma djikstra
-time: 108.49041, my addr: 2, speed : 0.000000000000000
+time: 108.49041, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 rte yg akan di update
 pointer ke rte, buat nampung sementara
 seqnum tdk sama, seqnum baru
 seqnum tdk sama, seqnum baru
+penjadwalan timeout untuk tetangga ini
 
 
 DSDV_Agent::recv
 myaddr_: 2
+time: 108.49041, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
 
 DSDV_Agent::updateRoute
-time: 114.11714, my addr: 2, speed : 0.000000000000000
+time: 114.11714, my addr: 2, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
 
 
 DSDV_Agent::processUpdate
 ini fungsi untuk update RoutingTable di setiap node, menggunakan algoritma djikstra
-time: 114.11714, my addr: 2, speed : 0.000000000000000
+time: 114.11714, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 rte yg akan di update
 pointer ke rte, buat nampung sementara
 seqnum tdk sama, seqnum baru
 seqnum tdk sama, seqnum baru
+penjadwalan timeout untuk tetangga ini
 
 
 DSDV_Agent::recv
 myaddr_: 2
+time: 114.11714, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
 
 DSDV_Agent::updateRoute
-time: 118.83870, my addr: 0, speed : 0.000000000000000
+time: 118.83870, my addr: 0, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
 
 
 DSDV_Agent::updateRoute
-time: 118.83870, my addr: 0, speed : 0.000000000000000
+time: 118.83870, my addr: 0, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
 
 
 DSDV_Agent::processUpdate
 ini fungsi untuk update RoutingTable di setiap node, menggunakan algoritma djikstra
-time: 118.83870, my addr: 0, speed : 0.000000000000000
+time: 118.83870, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 rte yg akan di update
 pointer ke rte, buat nampung sementara
 seqnum tdk sama, seqnum baru
 seqnum tdk sama, seqnum baru
+penjadwalan timeout untuk tetangga ini
 
 
 DSDV_Agent::recv
 myaddr_: 0
+time: 118.83870, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
 
 DSDV_Agent::updateRoute
-time: 118.83870, my addr: 1, speed : 0.000000000000000
+time: 118.83870, my addr: 1, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
 
 
 DSDV_Agent::updateRoute
-time: 118.83870, my addr: 1, speed : 0.000000000000000
+time: 118.83870, my addr: 1, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
 
 
 DSDV_Agent::processUpdate
 ini fungsi untuk update RoutingTable di setiap node, menggunakan algoritma djikstra
-time: 118.83870, my addr: 1, speed : 0.000000000000000
+time: 118.83870, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 rte yg akan di update
 pointer ke rte, buat nampung sementara
 seqnum tdk sama, seqnum baru
 seqnum tdk sama, seqnum baru
+penjadwalan timeout untuk tetangga ini
 
 
 DSDV_Agent::recv
 myaddr_: 1
+time: 118.83870, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
 
 DSDV_Agent::updateRoute
-time: 121.26405, my addr: 2, speed : 0.000000000000000
+time: 121.26405, my addr: 2, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
 
 
 DSDV_Agent::processUpdate
 ini fungsi untuk update RoutingTable di setiap node, menggunakan algoritma djikstra
-time: 121.26405, my addr: 2, speed : 0.000000000000000
+time: 121.26405, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 rte yg akan di update
 pointer ke rte, buat nampung sementara
 seqnum tdk sama, seqnum baru
+penjadwalan timeout untuk tetangga ini
 
 
 DSDV_Agent::recv
 myaddr_: 2
+time: 121.26405, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
 
 DSDV_Agent::updateRoute
-time: 127.70257, my addr: 2, speed : 0.000000000000000
+time: 127.70257, my addr: 2, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
 
 
 DSDV_Agent::processUpdate
 ini fungsi untuk update RoutingTable di setiap node, menggunakan algoritma djikstra
-time: 127.70257, my addr: 2, speed : 0.000000000000000
+time: 127.70257, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 rte yg akan di update
 pointer ke rte, buat nampung sementara
 seqnum tdk sama, seqnum baru
 seqnum tdk sama, seqnum baru
+penjadwalan timeout untuk tetangga ini
 
 
 DSDV_Agent::recv
 myaddr_: 2
+time: 127.70257, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
 
 DSDV_Agent::updateRoute
-time: 130.33455, my addr: 0, speed : 0.000000000000000
+time: 130.33455, my addr: 0, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
 
 
 DSDV_Agent::updateRoute
-time: 130.33455, my addr: 0, speed : 0.000000000000000
+time: 130.33455, my addr: 0, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
 
 
 DSDV_Agent::processUpdate
 ini fungsi untuk update RoutingTable di setiap node, menggunakan algoritma djikstra
-time: 130.33455, my addr: 0, speed : 0.000000000000000
+time: 130.33455, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 rte yg akan di update
 pointer ke rte, buat nampung sementara
 seqnum tdk sama, seqnum baru
 seqnum tdk sama, seqnum baru
+penjadwalan timeout untuk tetangga ini
 
 
 DSDV_Agent::recv
 myaddr_: 0
+time: 130.33455, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
 
 DSDV_Agent::updateRoute
-time: 130.33455, my addr: 1, speed : 0.000000000000000
+time: 130.33455, my addr: 1, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
 
 
 DSDV_Agent::processUpdate
 ini fungsi untuk update RoutingTable di setiap node, menggunakan algoritma djikstra
-time: 130.33455, my addr: 1, speed : 0.000000000000000
+time: 130.33455, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 rte yg akan di update
 pointer ke rte, buat nampung sementara
 seqnum tdk sama, seqnum baru
+penjadwalan timeout untuk tetangga ini
 
 
 DSDV_Agent::recv
 myaddr_: 1
+time: 130.33455, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
 
 DSDV_Agent::updateRoute
-time: 134.69262, my addr: 2, speed : 0.000000000000000
+time: 134.69262, my addr: 2, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
 
 
 DSDV_Agent::processUpdate
 ini fungsi untuk update RoutingTable di setiap node, menggunakan algoritma djikstra
-time: 134.69262, my addr: 2, speed : 0.000000000000000
+time: 134.69262, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 rte yg akan di update
 pointer ke rte, buat nampung sementara
 seqnum tdk sama, seqnum baru
 seqnum tdk sama, seqnum baru
+penjadwalan timeout untuk tetangga ini
 
 
 DSDV_Agent::recv
 myaddr_: 2
+time: 134.69262, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
 
 DSDV_Agent::updateRoute
-time: 139.17286, my addr: 2, speed : 0.000000000000000
+time: 139.17286, my addr: 2, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
 
 
 DSDV_Agent::processUpdate
 ini fungsi untuk update RoutingTable di setiap node, menggunakan algoritma djikstra
-time: 139.17286, my addr: 2, speed : 0.000000000000000
+time: 139.17286, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 rte yg akan di update
 pointer ke rte, buat nampung sementara
 seqnum tdk sama, seqnum baru
 seqnum tdk sama, seqnum baru
+penjadwalan timeout untuk tetangga ini
 
 
 DSDV_Agent::recv
 myaddr_: 2
+time: 139.17286, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
 
 DSDV_Agent::updateRoute
-time: 143.20918, my addr: 0, speed : 0.000000000000000
+time: 143.20918, my addr: 0, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
 
 
 DSDV_Agent::updateRoute
-time: 143.20918, my addr: 0, speed : 0.000000000000000
+time: 143.20918, my addr: 0, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
 
 
 DSDV_Agent::processUpdate
 ini fungsi untuk update RoutingTable di setiap node, menggunakan algoritma djikstra
-time: 143.20918, my addr: 0, speed : 0.000000000000000
+time: 143.20918, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 rte yg akan di update
 pointer ke rte, buat nampung sementara
 seqnum tdk sama, seqnum baru
 seqnum tdk sama, seqnum baru
+penjadwalan timeout untuk tetangga ini
 
 
 DSDV_Agent::recv
 myaddr_: 0
+time: 143.20918, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
 
 DSDV_Agent::updateRoute
-time: 143.20918, my addr: 1, speed : 0.000000000000000
+time: 143.20918, my addr: 1, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
 
 
 DSDV_Agent::updateRoute
-time: 143.20918, my addr: 1, speed : 0.000000000000000
+time: 143.20918, my addr: 1, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
 
 
 DSDV_Agent::processUpdate
 ini fungsi untuk update RoutingTable di setiap node, menggunakan algoritma djikstra
-time: 143.20918, my addr: 1, speed : 0.000000000000000
+time: 143.20918, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 rte yg akan di update
 pointer ke rte, buat nampung sementara
 seqnum tdk sama, seqnum baru
 seqnum tdk sama, seqnum baru
+penjadwalan timeout untuk tetangga ini
 
 
 DSDV_Agent::recv
 myaddr_: 1
+time: 143.20918, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
 
 DSDV_Agent::updateRoute
-time: 147.66738, my addr: 2, speed : 0.000000000000000
+time: 147.66738, my addr: 2, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
 
 
 DSDV_Agent::processUpdate
 ini fungsi untuk update RoutingTable di setiap node, menggunakan algoritma djikstra
-time: 147.66738, my addr: 2, speed : 0.000000000000000
+time: 147.66738, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 rte yg akan di update
 pointer ke rte, buat nampung sementara
 seqnum tdk sama, seqnum baru
+penjadwalan timeout untuk tetangga ini
 
 
 DSDV_Agent::recv
 myaddr_: 2
+time: 147.66738, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
  
  DSDV_Agent::helper_callback
+time: 147.65711, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
  periodic_callback
 meletakkan periodic update ke queue untuk waktu selanjutnya 
 
  
  DSDV_Agent::helper_callback
+time: 143.20231, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
  periodic_callback
 meletakkan periodic update ke queue untuk waktu selanjutnya 
 
  
  DSDV_Agent::helper_callback
+time: 139.16279, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
  periodic_callback
 meletakkan periodic update ke queue untuk waktu selanjutnya 
 
  
  DSDV_Agent::helper_callback
+time: 134.68221, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
  periodic_callback
 meletakkan periodic update ke queue untuk waktu selanjutnya 
 
  
  DSDV_Agent::helper_callback
+time: 130.32702, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
  periodic_callback
 meletakkan periodic update ke queue untuk waktu selanjutnya 
 
  
  DSDV_Agent::helper_callback
+time: 127.69268, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
  periodic_callback
 meletakkan periodic update ke queue untuk waktu selanjutnya 
 
  
  DSDV_Agent::helper_callback
+time: 121.26283, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
  periodic_callback
 meletakkan periodic update ke queue untuk waktu selanjutnya 
 
  
  DSDV_Agent::helper_callback
+time: 118.83519, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
  periodic_callback
 meletakkan periodic update ke queue untuk waktu selanjutnya 
 
  
  DSDV_Agent::helper_callback
+time: 114.10684, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
  periodic_callback
 meletakkan periodic update ke queue untuk waktu selanjutnya 
 
  
  DSDV_Agent::helper_callback
+time: 108.48479, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
  periodic_callback
 meletakkan periodic update ke queue untuk waktu selanjutnya 
 
  
  DSDV_Agent::helper_callback
+time: 104.21238, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
  periodic_callback
 meletakkan periodic update ke queue untuk waktu selanjutnya 
 
  
  DSDV_Agent::helper_callback
+time: 101.20716, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
  periodic_callback
 meletakkan periodic update ke queue untuk waktu selanjutnya 
 
  
  DSDV_Agent::helper_callback
+time: 95.28199, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
  periodic_callback
 meletakkan periodic update ke queue untuk waktu selanjutnya 
 
  
  DSDV_Agent::helper_callback
+time: 89.83738, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
  periodic_callback
 meletakkan periodic update ke queue untuk waktu selanjutnya 
 
  
  DSDV_Agent::helper_callback
+time: 89.65767, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
  periodic_callback
 meletakkan periodic update ke queue untuk waktu selanjutnya 
 
  
  DSDV_Agent::helper_callback
+time: 82.66231, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
  periodic_callback
 meletakkan periodic update ke queue untuk waktu selanjutnya 
 
  
  DSDV_Agent::helper_callback
+time: 77.16186, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
  periodic_callback
 meletakkan periodic update ke queue untuk waktu selanjutnya 
 
  
  DSDV_Agent::helper_callback
+time: 76.53942, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
  periodic_callback
 meletakkan periodic update ke queue untuk waktu selanjutnya 
 
  
  DSDV_Agent::helper_callback
+time: 68.47315, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
  periodic_callback
 meletakkan periodic update ke queue untuk waktu selanjutnya 
 
  
  DSDV_Agent::helper_callback
+time: 62.90432, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
  periodic_callback
 meletakkan periodic update ke queue untuk waktu selanjutnya 
 
  
  DSDV_Agent::helper_callback
+time: 62.55926, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
  periodic_callback
 meletakkan periodic update ke queue untuk waktu selanjutnya 
 
  
  DSDV_Agent::helper_callback
+time: 55.64358, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
  periodic_callback
 meletakkan periodic update ke queue untuk waktu selanjutnya 
 
  
  DSDV_Agent::helper_callback
+time: 51.12126, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
  periodic_callback
 meletakkan periodic update ke queue untuk waktu selanjutnya 
 
  
  DSDV_Agent::helper_callback
+time: 50.98409, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
  periodic_callback
 meletakkan periodic update ke queue untuk waktu selanjutnya 
 
  
  DSDV_Agent::helper_callback
+time: 40.84302, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
  periodic_callback
 meletakkan periodic update ke queue untuk waktu selanjutnya 
 
  
  DSDV_Agent::helper_callback
+time: 39.76792, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
  periodic_callback
 meletakkan periodic update ke queue untuk waktu selanjutnya 
 
  
  DSDV_Agent::helper_callback
+time: 36.44663, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
  periodic_callback
 meletakkan periodic update ke queue untuk waktu selanjutnya 
 
  
  DSDV_Agent::helper_callback
+time: 27.08568, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
  periodic_callback
 meletakkan periodic update ke queue untuk waktu selanjutnya 
 
  
  DSDV_Agent::helper_callback
+time: 25.15610, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
  periodic_callback
 meletakkan periodic update ke queue untuk waktu selanjutnya 
 
  
  DSDV_Agent::helper_callback
+time: 24.96943, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
  periodic_callback
 meletakkan periodic update ke queue untuk waktu selanjutnya 
 
 
 DSDVTriggerHandler::handle
+(myaddr: 2)-->triggered update with 
 
  line 196
  line 200
@@ -1222,36 +1365,941 @@ DSDVTriggerHandler::handle
  line 213
  
  DSDV_Agent::helper_callback
+time: 12.97731, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
  periodic_callback
 meletakkan periodic update ke queue untuk waktu selanjutnya 
 
  
  DSDV_Agent::helper_callback
+time: 12.90508, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
  periodic_callback
 meletakkan periodic update ke queue untuk waktu selanjutnya 
 
  
  DSDV_Agent::helper_callback
+time: 12.15817, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
  periodic_callback
 meletakkan periodic update ke queue untuk waktu selanjutnya 
 
  
  DSDV_Agent::helper_callback
+time: 1.11176, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
  periodic_callback
 meletakkan periodic update ke queue untuk waktu selanjutnya 
 
  
  DSDV_Agent::helper_callback
+time: 0.02841, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
  periodic_callback
 meletakkan periodic update ke queue untuk waktu selanjutnya 
 
  
  DSDV_Agent::helper_callback
+time: 0.00068, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
 
  periodic_callback
 meletakkan periodic update ke queue untuk waktu selanjutnya 
+
+ 
+DSDV_Agent::startUp 
+time now = 0.00000 , myaddr: 0 , speed : 0.000000000000000
+
+ 
+DSDV_Agent::startUp 
+time now = 0.00000 , myaddr: 1 , speed : 0.000000000000000
+
+ 
+DSDV_Agent::startUp 
+time now = 0.00000 , myaddr: 2 , speed : 0.000000000000000
+
+
+DSDV_Agent::updateRoute
+time: 0.00238, my addr: 2, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
+
+
+DSDV_Agent::needTriggeredUpdate
+time: 0.00238, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::processUpdate
+time: 0.00238, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::recv
+time: 0.00238, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::updateRoute
+time: 0.03775, my addr: 0, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
+
+
+DSDV_Agent::needTriggeredUpdate
+time: 0.03775, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::processUpdate
+time: 0.03775, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::recv
+time: 0.03775, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::updateRoute
+time: 0.03775, my addr: 1, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
+
+
+DSDV_Agent::needTriggeredUpdate
+time: 0.03775, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::processUpdate
+time: 0.03775, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::recv
+time: 0.03775, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::updateRoute
+time: 1.12149, my addr: 2, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
+
+
+DSDV_Agent::needTriggeredUpdate
+time: 1.12149, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::processUpdate
+time: 1.12149, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::recv
+time: 1.12149, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDVTriggerHandler::handle
+(myaddr: 2)
+time: 12.00238, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::processUpdate
+time: 12.00458, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::recv
+time: 12.00458, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::updateRoute
+time: 12.00458, my addr: 1, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
+
+
+DSDV_Agent::needTriggeredUpdate
+time: 12.00458, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::processUpdate
+time: 12.00458, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::recv
+time: 12.00458, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDVTriggerHandler::handle
+(myaddr: 0)
+time: 12.03775, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDVTriggerHandler::handle
+(myaddr: 1)
+time: 12.03775, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::processUpdate
+time: 12.03984, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::recv
+time: 12.03984, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::processUpdate
+time: 12.04117, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::recv
+time: 12.04117, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::updateRoute
+time: 12.16445, my addr: 0, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
+
+
+DSDV_Agent::processUpdate
+time: 12.16445, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::recv
+time: 12.16445, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::updateRoute
+time: 12.16445, my addr: 1, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
+
+
+DSDV_Agent::processUpdate
+time: 12.16445, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::recv
+time: 12.16445, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::updateRoute
+time: 12.91466, my addr: 2, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
+
+
+DSDV_Agent::processUpdate
+time: 12.91466, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::recv
+time: 12.91466, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::updateRoute
+time: 12.98504, my addr: 2, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
+
+
+DSDV_Agent::processUpdate
+time: 12.98504, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::recv
+time: 12.98504, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::cancelTriggersBefore
+time: 13.12149, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDVTriggerHandler::handle
+(myaddr: 2)
+time: 13.15817, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDVTriggerHandler::handle
+(myaddr: 1)
+time: 24.00458, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::processUpdate
+time: 24.00679, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::recv
+time: 24.00679, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::updateRoute
+time: 24.97942, my addr: 2, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
+
+
+DSDV_Agent::processUpdate
+time: 24.97942, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::recv
+time: 24.97942, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::updateRoute
+time: 25.15794, my addr: 0, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
+
+
+DSDV_Agent::needTriggeredUpdate
+time: 25.15794, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::updateRoute
+time: 25.15794, my addr: 0, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
+
+
+DSDV_Agent::processUpdate
+time: 25.15794, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::recv
+time: 25.15794, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::updateRoute
+time: 25.15794, my addr: 1, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
+
+
+DSDV_Agent::processUpdate
+time: 25.15794, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::recv
+time: 25.15794, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::updateRoute
+time: 27.08810, my addr: 2, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
+
+
+DSDV_Agent::processUpdate
+time: 27.08810, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::recv
+time: 27.08810, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::updateRoute
+time: 36.45341, my addr: 0, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
+
+
+DSDV_Agent::updateRoute
+time: 36.45341, my addr: 0, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
+
+
+DSDV_Agent::processUpdate
+time: 36.45341, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::recv
+time: 36.45341, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::updateRoute
+time: 36.45341, my addr: 1, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
+
+
+DSDV_Agent::updateRoute
+time: 36.45341, my addr: 1, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
+
+
+DSDV_Agent::processUpdate
+time: 36.45341, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::recv
+time: 36.45341, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDVTriggerHandler::handle
+(myaddr: 0)
+time: 37.15794, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::updateRoute
+time: 39.77330, my addr: 2, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
+
+
+DSDV_Agent::processUpdate
+time: 39.77330, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::recv
+time: 39.77330, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::updateRoute
+time: 40.85197, my addr: 2, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
+
+
+DSDV_Agent::processUpdate
+time: 40.85197, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::recv
+time: 40.85197, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::updateRoute
+time: 50.99217, my addr: 0, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
+
+
+DSDV_Agent::updateRoute
+time: 50.99217, my addr: 0, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
+
+
+DSDV_Agent::processUpdate
+time: 50.99217, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::recv
+time: 50.99217, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::updateRoute
+time: 50.99217, my addr: 1, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
+
+
+DSDV_Agent::updateRoute
+time: 50.99217, my addr: 1, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
+
+
+DSDV_Agent::processUpdate
+time: 50.99217, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::recv
+time: 50.99217, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::updateRoute
+time: 51.12712, my addr: 2, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
+
+
+DSDV_Agent::processUpdate
+time: 51.12712, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::recv
+time: 51.12712, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::updateRoute
+time: 55.65201, my addr: 2, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
+
+
+DSDV_Agent::processUpdate
+time: 55.65201, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::recv
+time: 55.65201, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::updateRoute
+time: 62.56990, my addr: 2, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
+
+
+DSDV_Agent::processUpdate
+time: 62.56990, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::recv
+time: 62.56990, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::updateRoute
+time: 62.91272, my addr: 0, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
+
+
+DSDV_Agent::updateRoute
+time: 62.91272, my addr: 0, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
+
+
+DSDV_Agent::processUpdate
+time: 62.91272, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::recv
+time: 62.91272, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::updateRoute
+time: 62.91272, my addr: 1, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
+
+
+DSDV_Agent::processUpdate
+time: 62.91272, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::recv
+time: 62.91272, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::updateRoute
+time: 68.48252, my addr: 2, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
+
+
+DSDV_Agent::processUpdate
+time: 68.48252, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::recv
+time: 68.48252, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::updateRoute
+time: 76.54453, my addr: 2, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
+
+
+DSDV_Agent::processUpdate
+time: 76.54453, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::recv
+time: 76.54453, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::updateRoute
+time: 77.16378, my addr: 0, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
+
+
+DSDV_Agent::updateRoute
+time: 77.16378, my addr: 0, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
+
+
+DSDV_Agent::processUpdate
+time: 77.16378, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::recv
+time: 77.16378, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::updateRoute
+time: 77.16378, my addr: 1, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
+
+
+DSDV_Agent::processUpdate
+time: 77.16378, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::recv
+time: 77.16378, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::updateRoute
+time: 82.66381, my addr: 2, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
+
+
+DSDV_Agent::processUpdate
+time: 82.66381, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::recv
+time: 82.66381, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::updateRoute
+time: 89.66226, my addr: 0, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
+
+
+DSDV_Agent::updateRoute
+time: 89.66226, my addr: 0, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
+
+
+DSDV_Agent::processUpdate
+time: 89.66226, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::recv
+time: 89.66226, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::updateRoute
+time: 89.66226, my addr: 1, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
+
+
+DSDV_Agent::updateRoute
+time: 89.66226, my addr: 1, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
+
+
+DSDV_Agent::processUpdate
+time: 89.66226, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::recv
+time: 89.66226, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::updateRoute
+time: 89.84023, my addr: 2, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
+
+
+DSDV_Agent::processUpdate
+time: 89.84023, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::recv
+time: 89.84023, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::updateRoute
+time: 95.29090, my addr: 2, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
+
+
+DSDV_Agent::processUpdate
+time: 95.29090, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::recv
+time: 95.29090, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::updateRoute
+time: 101.20893, my addr: 2, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
+
+
+DSDV_Agent::processUpdate
+time: 101.20893, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::recv
+time: 101.20893, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::updateRoute
+time: 104.21455, my addr: 0, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
+
+
+DSDV_Agent::updateRoute
+time: 104.21455, my addr: 0, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
+
+
+DSDV_Agent::processUpdate
+time: 104.21455, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::recv
+time: 104.21455, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::updateRoute
+time: 104.21455, my addr: 1, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
+
+
+DSDV_Agent::processUpdate
+time: 104.21455, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::recv
+time: 104.21455, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::updateRoute
+time: 108.49041, my addr: 2, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
+
+
+DSDV_Agent::processUpdate
+time: 108.49041, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::recv
+time: 108.49041, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::updateRoute
+time: 114.11714, my addr: 2, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
+
+
+DSDV_Agent::processUpdate
+time: 114.11714, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::recv
+time: 114.11714, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::updateRoute
+time: 118.83870, my addr: 0, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
+
+
+DSDV_Agent::updateRoute
+time: 118.83870, my addr: 0, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
+
+
+DSDV_Agent::processUpdate
+time: 118.83870, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::recv
+time: 118.83870, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::updateRoute
+time: 118.83870, my addr: 1, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
+
+
+DSDV_Agent::updateRoute
+time: 118.83870, my addr: 1, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
+
+
+DSDV_Agent::processUpdate
+time: 118.83870, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::recv
+time: 118.83870, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::updateRoute
+time: 121.26405, my addr: 2, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
+
+
+DSDV_Agent::processUpdate
+time: 121.26405, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::recv
+time: 121.26405, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::updateRoute
+time: 127.70257, my addr: 2, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
+
+
+DSDV_Agent::processUpdate
+time: 127.70257, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::recv
+time: 127.70257, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::updateRoute
+time: 130.33455, my addr: 0, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
+
+
+DSDV_Agent::updateRoute
+time: 130.33455, my addr: 0, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
+
+
+DSDV_Agent::processUpdate
+time: 130.33455, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::recv
+time: 130.33455, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::updateRoute
+time: 130.33455, my addr: 1, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
+
+
+DSDV_Agent::processUpdate
+time: 130.33455, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::recv
+time: 130.33455, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::updateRoute
+time: 134.69262, my addr: 2, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
+
+
+DSDV_Agent::processUpdate
+time: 134.69262, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::recv
+time: 134.69262, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::updateRoute
+time: 139.17286, my addr: 2, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
+
+
+DSDV_Agent::processUpdate
+time: 139.17286, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::recv
+time: 139.17286, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::updateRoute
+time: 143.20918, my addr: 0, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
+
+
+DSDV_Agent::updateRoute
+time: 143.20918, my addr: 0, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
+
+
+DSDV_Agent::processUpdate
+time: 143.20918, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::recv
+time: 143.20918, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::updateRoute
+time: 143.20918, my addr: 1, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
+
+
+DSDV_Agent::updateRoute
+time: 143.20918, my addr: 1, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
+
+
+DSDV_Agent::processUpdate
+time: 143.20918, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::recv
+time: 143.20918, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::updateRoute
+time: 147.66738, my addr: 2, speed : 0.000000000000000 , perup_node 15.000000, minup_node 3.000000 
+
+
+DSDV_Agent::processUpdate
+time: 147.66738, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDV_Agent::recv
+time: 147.66738, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+ 
+ DSDV_Agent::helper_callback
+time: 147.65711, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+ 
+ DSDV_Agent::helper_callback
+time: 143.20231, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+ 
+ DSDV_Agent::helper_callback
+time: 139.16279, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+ 
+ DSDV_Agent::helper_callback
+time: 134.68221, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+ 
+ DSDV_Agent::helper_callback
+time: 130.32702, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+ 
+ DSDV_Agent::helper_callback
+time: 127.69268, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+ 
+ DSDV_Agent::helper_callback
+time: 121.26283, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+ 
+ DSDV_Agent::helper_callback
+time: 118.83519, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+ 
+ DSDV_Agent::helper_callback
+time: 114.10684, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+ 
+ DSDV_Agent::helper_callback
+time: 108.48479, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+ 
+ DSDV_Agent::helper_callback
+time: 104.21238, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+ 
+ DSDV_Agent::helper_callback
+time: 101.20716, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+ 
+ DSDV_Agent::helper_callback
+time: 95.28199, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+ 
+ DSDV_Agent::helper_callback
+time: 89.83738, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+ 
+ DSDV_Agent::helper_callback
+time: 89.65767, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+ 
+ DSDV_Agent::helper_callback
+time: 82.66231, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+ 
+ DSDV_Agent::helper_callback
+time: 77.16186, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+ 
+ DSDV_Agent::helper_callback
+time: 76.53942, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+ 
+ DSDV_Agent::helper_callback
+time: 68.47315, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+ 
+ DSDV_Agent::helper_callback
+time: 62.90432, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+ 
+ DSDV_Agent::helper_callback
+time: 62.55926, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+ 
+ DSDV_Agent::helper_callback
+time: 55.64358, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+ 
+ DSDV_Agent::helper_callback
+time: 51.12126, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+ 
+ DSDV_Agent::helper_callback
+time: 50.98409, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+ 
+ DSDV_Agent::helper_callback
+time: 40.84302, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+ 
+ DSDV_Agent::helper_callback
+time: 39.76792, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+ 
+ DSDV_Agent::helper_callback
+time: 36.44663, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+ 
+ DSDV_Agent::helper_callback
+time: 27.08568, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+ 
+ DSDV_Agent::helper_callback
+time: 25.15610, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+ 
+ DSDV_Agent::helper_callback
+time: 24.96943, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+
+DSDVTriggerHandler::handle
+(myaddr: 2)
+time: 13.12149, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+ 
+ DSDV_Agent::helper_callback
+time: 12.97731, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+ 
+ DSDV_Agent::helper_callback
+time: 12.90508, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+ 
+ DSDV_Agent::helper_callback
+time: 12.15817, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+ 
+ DSDV_Agent::helper_callback
+time: 1.11176, my addr: 1, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+ 
+ DSDV_Agent::helper_callback
+time: 0.02841, my addr: 2, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
+
+ 
+ DSDV_Agent::helper_callback
+time: 0.00068, my addr: 0, speed : 0.000000000000000 perup: 15.000000 minup: 3.000000 
