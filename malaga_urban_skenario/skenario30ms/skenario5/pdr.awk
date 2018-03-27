@@ -4,20 +4,24 @@ BEGIN {
 sent=0;
 received=0;
 }
+
 {
-  if($1=="s" && $4=="AGT")
+
+# count packet send
+  if($1=="s" && $3=="_0_" && $4=="AGT" && $7=="cbr")
    {
     sent++;
    }
-  else if($1=="r" && $4=="AGT")
+
+  else if($1=="r" && $3=="_8_" && $4=="AGT" && $7=="cbr")
    {
      received++;
    }
  
 }
 END {
- printf " Packet Sent:%d",sent;
- printf "\n Packet Received:%d",received;
+ #printf " Packet Sent:%d",sent;
+ #printf "\n Packet Received:%d",received;
  printf "\n Packet Delivery Ratio:%.2f\n",(received/sent)*100;
 
 }
