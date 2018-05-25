@@ -43,11 +43,11 @@ END {
 		}
 	}
 	n_to_n_delay = n_to_n_delay/count;
-	print "\n";
+	#print "\n";
 	#print "GeneratedPackets = " seqno+1;
 	# print "ReceivedPackets = " receivedPackets;
 	#print "Packet Delivery Ratio = " receivedPackets/(seqno+1)*100 "%";
 	#print "Total Dropped Packets = " droppedPackets;
-	print "Average End - to - End Delay = " n_to_n_delay * 1000 " ms";
-	print "\n";
+	#print "Average End - to - End Delay = " n_to_n_delay * 1000 " ms";
+	printf "%.2f|", n_to_n_delay * 1000;
 } 

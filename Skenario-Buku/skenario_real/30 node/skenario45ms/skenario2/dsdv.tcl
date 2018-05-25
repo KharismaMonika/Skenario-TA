@@ -1,0 +1,427 @@
+$node_(0) set X_ 295.65
+$node_(0) set Y_ 181.6
+$node_(0) set Z_ 0
+$ns_ at 0.0 "$node_(0) setdest 295.65 181.6 3.21"
+$node_(1) set X_ 194.35
+$node_(1) set Y_ 520.19
+$node_(1) set Z_ 0
+$ns_ at 0.0 "$node_(1) setdest 194.35 520.19 45.00"
+$ns_ at 3.0 "$node_(0) setdest 295.65 187.81 2.07"
+$ns_ at 3.0 "$node_(1) setdest 194.35 385.73 44.82"
+$node_(2) set X_ 629.04
+$node_(2) set Y_ 99.65
+$node_(2) set Z_ 0
+$ns_ at 3.0 "$node_(2) setdest 629.04 99.65 19.20"
+$node_(3) set X_ 775.39
+$node_(3) set Y_ 1.65
+$node_(3) set Z_ 0
+$ns_ at 3.0 "$node_(3) setdest 775.39 1.65 45.00"
+$node_(4) set X_ 560.53
+$node_(4) set Y_ 782.35
+$node_(4) set Z_ 0
+$ns_ at 3.0 "$node_(4) setdest 560.53 782.35 15.81"
+$node_(5) set X_ 978.35
+$node_(5) set Y_ 365.35
+$node_(5) set Z_ 0
+$ns_ at 3.0 "$node_(5) setdest 978.35 365.35 45.00"
+$ns_ at 6.0 "$node_(0) setdest 295.65 188.86 0.35"
+$ns_ at 6.0 "$node_(1) setdest 194.35 259.44 42.09"
+$ns_ at 6.0 "$node_(2) setdest 589.65 113.52 17.35"
+$ns_ at 6.0 "$node_(3) setdest 645.68 1.65 43.24"
+$ns_ at 6.0 "$node_(4) setdest 571.33 785.65 13.16"
+$ns_ at 6.0 "$node_(5) setdest 978.35 230.42 44.98"
+$node_(6) set X_ 684.35
+$node_(6) set Y_ 43.13
+$node_(6) set Z_ 0
+$ns_ at 6.0 "$node_(6) setdest 684.35 43.13 19.72"
+$node_(7) set X_ 393.65
+$node_(7) set Y_ 812.16
+$node_(7) set Z_ 0
+$ns_ at 6.0 "$node_(7) setdest 393.65 812.16 26.40"
+$node_(8) set X_ 969.92
+$node_(8) set Y_ 491.65
+$node_(8) set Z_ 0
+$ns_ at 6.0 "$node_(8) setdest 969.92 491.65 29.24"
+$ns_ at 9.0 "$node_(0) setdest 295.65 188.86 0.00"
+$ns_ at 9.0 "$node_(1) setdest 194.35 141.77 39.23"
+$node_(9) set X_ 431.85
+$node_(9) set Y_ 292.35
+$node_(9) set Z_ 0
+$ns_ at 9.0 "$node_(9) setdest 431.85 292.35 23.48"
+$node_(10) set X_ 194.35
+$node_(10) set Y_ 535.08
+$node_(10) set Z_ 0
+$ns_ at 9.0 "$node_(10) setdest 194.35 535.08 36.48"
+$ns_ at 9.0 "$node_(2) setdest 589.65 182.98 23.15"
+$ns_ at 9.0 "$node_(3) setdest 514.27 1.65 43.80"
+$ns_ at 9.0 "$node_(4) setdest 509.0 785.65 20.78"
+$ns_ at 9.0 "$node_(5) setdest 978.35 130.64 33.26"
+$ns_ at 9.0 "$node_(6) setdest 675.19 1.65 16.48"
+$ns_ at 9.0 "$node_(7) setdest 391.24 882.54 23.73"
+$ns_ at 9.0 "$node_(8) setdest 889.66 491.65 26.75"
+$node_(11) set X_ 966.64
+$node_(11) set Y_ 978.35
+$node_(11) set Z_ 0
+$ns_ at 9.0 "$node_(11) setdest 966.64 978.35 3.37"
+$ns_ at 12.0 "$node_(0) setdest 295.3 191.78 1.01"
+$ns_ at 12.0 "$node_(1) setdest 228.59 96.35 25.73"
+$ns_ at 12.0 "$node_(9) setdest 491.65 303.91 22.96"
+$ns_ at 12.0 "$node_(10) setdest 128.71 491.65 35.96"
+$node_(12) set X_ 589.65
+$node_(12) set Y_ 874.11
+$node_(12) set Z_ 0
+$ns_ at 12.0 "$node_(12) setdest 589.65 874.11 1.05"
+$node_(13) set X_ 491.65
+$node_(13) set Y_ 126.12
+$node_(13) set Z_ 0
+$ns_ at 12.0 "$node_(13) setdest 491.65 126.12 26.41"
+$node_(14) set X_ 785.65
+$node_(14) set Y_ 808.5
+$node_(14) set Z_ 0
+$ns_ at 12.0 "$node_(14) setdest 785.65 808.5 27.18"
+$ns_ at 12.0 "$node_(2) setdest 589.65 272.31 29.78"
+$ns_ at 12.0 "$node_(3) setdest 379.62 1.65 44.88"
+$ns_ at 12.0 "$node_(4) setdest 468.39 785.65 13.54"
+$ns_ at 12.0 "$node_(5) setdest 981.65 129.32 19.76"
+$ns_ at 12.0 "$node_(6) setdest 606.22 1.65 22.99"
+$ns_ at 12.0 "$node_(7) setdest 307.71 883.65 27.92"
+$ns_ at 12.0 "$node_(8) setdest 803.33 491.65 28.78"
+$ns_ at 12.0 "$node_(11) setdest 974.04 978.35 2.47"
+$ns_ at 15.0 "$node_(0) setdest 292.35 171.82 7.87"
+$ns_ at 15.0 "$node_(1) setdest 296.01 96.35 22.47"
+$ns_ at 15.0 "$node_(9) setdest 491.65 392.59 29.56"
+$ns_ at 15.0 "$node_(10) setdest 61.34 491.65 22.46"
+$ns_ at 15.0 "$node_(12) setdest 589.65 875.64 0.51"
+$ns_ at 15.0 "$node_(13) setdest 488.35 186.01 25.06"
+$ns_ at 15.0 "$node_(14) setdest 776.54 883.65 27.26"
+$node_(15) set X_ 498.74
+$node_(15) set Y_ 197.65
+$node_(15) set Z_ 0
+$ns_ at 15.0 "$node_(15) setdest 498.74 197.65 1.33"
+$node_(16) set X_ 273.02
+$node_(16) set Y_ 1.65
+$node_(16) set Z_ 0
+$ns_ at 15.0 "$node_(16) setdest 273.02 1.65 38.86"
+$node_(17) set X_ 36.46
+$node_(17) set Y_ 589.65
+$node_(17) set Z_ 0
+$ns_ at 15.0 "$node_(17) setdest 36.46 589.65 18.05"
+$ns_ at 15.0 "$node_(2) setdest 589.65 384.0 37.23"
+$ns_ at 15.0 "$node_(3) setdest 252.71 1.65 42.30"
+$ns_ at 15.0 "$node_(4) setdest 413.88 785.65 18.17"
+$ns_ at 15.0 "$node_(6) setdest 515.82 1.65 30.13"
+$ns_ at 15.0 "$node_(7) setdest 264.47 883.65 14.42"
+$ns_ at 15.0 "$node_(8) setdest 757.5 491.65 15.28"
+$ns_ at 15.0 "$node_(11) setdest 974.72 978.35 0.23"
+$ns_ at 18.0 "$node_(0) setdest 292.35 135.67 12.05"
+$ns_ at 18.0 "$node_(1) setdest 375.22 96.35 26.40"
+$ns_ at 18.0 "$node_(9) setdest 491.65 502.25 36.55"
+$ns_ at 18.0 "$node_(10) setdest 1.65 499.27 22.04"
+$ns_ at 18.0 "$node_(12) setdest 589.32 879.57 1.32"
+$ns_ at 18.0 "$node_(13) setdest 489.66 98.43 29.29"
+$ns_ at 18.0 "$node_(14) setdest 688.29 883.65 29.42"
+$ns_ at 18.0 "$node_(15) setdest 491.65 210.7 6.31"
+$ns_ at 18.0 "$node_(16) setdest 197.65 40.1 37.54"
+$ns_ at 18.0 "$node_(17) setdest 1.65 609.18 17.72"
+$node_(18) set X_ 160.11
+$node_(18) set Y_ 981.65
+$node_(18) set Z_ 0
+$ns_ at 18.0 "$node_(18) setdest 160.11 981.65 24.47"
+$node_(19) set X_ 295.65
+$node_(19) set Y_ 30.42
+$node_(19) set Z_ 0
+$ns_ at 18.0 "$node_(19) setdest 295.65 30.42 25.83"
+$ns_ at 18.0 "$node_(2) setdest 589.65 479.67 31.89"
+$node_(20) set X_ 956.46
+$node_(20) set Y_ 785.65
+$node_(20) set Z_ 0
+$ns_ at 18.0 "$node_(20) setdest 956.46 785.65 27.31"
+$ns_ at 18.0 "$node_(3) setdest 121.39 1.65 43.78"
+$ns_ at 18.0 "$node_(4) setdest 371.06 785.65 14.27"
+$ns_ at 18.0 "$node_(6) setdest 408.42 1.65 35.80"
+$ns_ at 18.0 "$node_(7) setdest 198.85 883.38 21.88"
+$ns_ at 18.0 "$node_(8) setdest 690.36 491.65 22.38"
+$ns_ at 18.0 "$node_(11) setdest 961.29 981.65 7.44"
+$ns_ at 21.0 "$node_(0) setdest 306.52 96.35 17.00"
+$ns_ at 21.0 "$node_(1) setdest 413.93 96.35 12.90"
+$ns_ at 21.0 "$node_(9) setdest 491.65 634.09 43.94"
+$ns_ at 21.0 "$node_(10) setdest 1.65 585.23 28.65"
+$ns_ at 21.0 "$node_(12) setdest 568.44 883.65 7.60"
+$ns_ at 21.0 "$node_(13) setdest 571.19 96.35 27.39"
+$ns_ at 21.0 "$node_(14) setdest 602.63 883.65 28.55"
+$ns_ at 21.0 "$node_(15) setdest 491.65 247.28 12.19"
+$ns_ at 21.0 "$node_(16) setdest 197.65 163.67 41.19"
+$ns_ at 21.0 "$node_(17) setdest 1.65 674.91 21.91"
+$ns_ at 21.0 "$node_(18) setdest 96.35 973.97 22.99"
+$ns_ at 21.0 "$node_(19) setdest 286.52 99.65 25.30"
+$ns_ at 21.0 "$node_(2) setdest 586.35 440.48 18.39"
+$ns_ at 21.0 "$node_(20) setdest 879.53 785.65 25.64"
+$node_(21) set X_ 15.92
+$node_(21) set Y_ 883.65
+$node_(21) set Z_ 0
+$ns_ at 21.0 "$node_(21) setdest 15.92 883.65 3.72"
+$node_(22) set X_ 883.65
+$node_(22) set Y_ 839.52
+$node_(22) set Z_ 0
+$ns_ at 21.0 "$node_(22) setdest 883.65 839.52 19.56"
+$node_(23) set X_ 883.65
+$node_(23) set Y_ 874.73
+$node_(23) set Z_ 0
+$ns_ at 21.0 "$node_(23) setdest 883.65 874.73 31.07"
+$ns_ at 21.0 "$node_(3) setdest 99.65 111.84 43.58"
+$ns_ at 21.0 "$node_(4) setdest 312.03 785.65 19.68"
+$ns_ at 21.0 "$node_(6) setdest 295.65 7.93 39.28"
+$ns_ at 21.0 "$node_(7) setdest 194.35 796.89 29.59"
+$ns_ at 21.0 "$node_(8) setdest 606.67 491.65 27.90"
+$ns_ at 21.0 "$node_(11) setdest 920.53 981.65 13.59"
+$ns_ at 24.0 "$node_(0) setdest 379.74 96.35 24.41"
+$ns_ at 24.0 "$node_(1) setdest 467.71 96.35 17.93"
+$ns_ at 24.0 "$node_(9) setdest 550.55 684.35 35.99"
+$ns_ at 24.0 "$node_(10) setdest 1.65 673.01 29.26"
+$ns_ at 24.0 "$node_(12) setdest 527.71 883.65 13.58"
+$ns_ at 24.0 "$node_(13) setdest 586.35 68.64 13.89"
+$ns_ at 24.0 "$node_(14) setdest 557.47 883.65 15.05"
+$ns_ at 24.0 "$node_(15) setdest 491.65 299.08 17.27"
+$ns_ at 24.0 "$node_(16) setdest 197.65 290.32 42.22"
+$ns_ at 24.0 "$node_(17) setdest 1.65 760.03 28.37"
+$ns_ at 24.0 "$node_(18) setdest 96.35 889.5 28.15"
+$ns_ at 24.0 "$node_(19) setdest 209.18 99.65 25.78"
+$ns_ at 24.0 "$node_(20) setdest 793.17 785.65 28.79"
+$ns_ at 24.0 "$node_(21) setdest 14.74 883.65 0.39"
+$ns_ at 24.0 "$node_(22) setdest 880.35 869.98 16.61"
+$ns_ at 24.0 "$node_(23) setdest 970.61 880.35 30.46"
+$node_(24) set X_ 35.24
+$node_(24) set Y_ 586.35
+$node_(24) set Z_ 0
+$ns_ at 24.0 "$node_(24) setdest 35.24 586.35 24.63"
+$node_(25) set X_ 586.35
+$node_(25) set Y_ 720.55
+$node_(25) set Z_ 0
+$ns_ at 24.0 "$node_(25) setdest 586.35 720.55 34.97"
+$node_(26) set X_ 447.12
+$node_(26) set Y_ 197.65
+$node_(26) set Z_ 0
+$ns_ at 24.0 "$node_(26) setdest 447.12 197.65 22.72"
+$ns_ at 24.0 "$node_(3) setdest 99.65 245.39 44.52"
+$ns_ at 24.0 "$node_(4) setdest 293.51 785.65 6.18"
+$ns_ at 24.0 "$node_(6) setdest 295.65 135.19 42.42"
+$ns_ at 24.0 "$node_(7) setdest 194.35 686.38 36.84"
+$ns_ at 24.0 "$node_(8) setdest 563.48 491.65 14.40"
+$ns_ at 24.0 "$node_(11) setdest 859.84 981.65 20.23"
+$ns_ at 27.0 "$node_(0) setdest 393.65 117.64 10.91"
+$ns_ at 27.0 "$node_(1) setdest 491.65 110.38 11.83"
+$ns_ at 27.0 "$node_(9) setdest 618.02 684.35 22.49"
+$ns_ at 27.0 "$node_(10) setdest 1.65 769.48 32.15"
+$ns_ at 27.0 "$node_(12) setdest 491.65 900.57 17.26"
+$ns_ at 27.0 "$node_(13) setdest 586.35 7.62 20.34"
+$ns_ at 27.0 "$node_(14) setdest 514.67 883.65 14.27"
+$ns_ at 27.0 "$node_(15) setdest 491.65 363.22 21.38"
+$ns_ at 27.0 "$node_(16) setdest 197.65 414.94 41.54"
+$ns_ at 27.0 "$node_(17) setdest 71.26 782.35 30.24"
+$ns_ at 27.0 "$node_(18) setdest 96.35 788.57 33.64"
+$ns_ at 27.0 "$node_(19) setdest 194.35 75.16 12.28"
+$ns_ at 27.0 "$node_(20) setdest 706.58 785.65 28.86"
+$ns_ at 27.0 "$node_(21) setdest 6.05 883.65 2.90"
+$ns_ at 27.0 "$node_(22) setdest 880.35 800.72 23.09"
+$ns_ at 27.0 "$node_(23) setdest 978.35 836.0 16.96"
+$ns_ at 27.0 "$node_(24) setdest 96.35 572.46 24.60"
+$ns_ at 27.0 "$node_(25) setdest 523.93 687.65 31.37"
+$ns_ at 27.0 "$node_(26) setdest 386.75 197.65 20.12"
+$node_(27) set X_ 99.65
+$node_(27) set Y_ 691.78
+$node_(27) set Z_ 0
+$ns_ at 27.0 "$node_(27) setdest 99.65 691.78 29.85"
+$ns_ at 27.0 "$node_(3) setdest 99.65 368.91 41.17"
+$ns_ at 27.0 "$node_(4) setdest 259.08 785.65 11.47"
+$ns_ at 27.0 "$node_(6) setdest 295.65 263.76 42.86"
+$ns_ at 27.0 "$node_(7) setdest 194.35 558.12 42.75"
+$ns_ at 27.0 "$node_(8) setdest 497.06 491.65 22.14"
+$ns_ at 27.0 "$node_(11) setdest 785.77 981.65 24.69"
+$ns_ at 30.0 "$node_(0) setdest 393.65 169.16 17.17"
+$ns_ at 30.0 "$node_(1) setdest 491.65 163.56 17.73"
+$ns_ at 30.0 "$node_(9) setdest 690.54 684.35 24.17"
+$ns_ at 30.0 "$node_(10) setdest 1.65 880.88 37.13"
+$ns_ at 30.0 "$node_(12) setdest 491.65 964.08 21.17"
+$ns_ at 30.0 "$node_(14) setdest 475.12 883.65 13.18"
+$ns_ at 30.0 "$node_(15) setdest 491.65 445.94 27.57"
+$ns_ at 30.0 "$node_(16) setdest 197.65 544.72 43.26"
+$ns_ at 30.0 "$node_(17) setdest 121.49 782.35 16.74"
+$ns_ at 30.0 "$node_(18) setdest 96.35 675.2 37.79"
+$ns_ at 30.0 "$node_(19) setdest 194.35 24.09 17.02"
+$ns_ at 30.0 "$node_(20) setdest 660.5 785.65 15.36"
+$ns_ at 30.0 "$node_(21) setdest 1.65 867.42 7.15"
+$ns_ at 30.0 "$node_(22) setdest 880.35 717.65 27.69"
+$ns_ at 30.0 "$node_(23) setdest 978.35 771.1 21.63"
+$ns_ at 30.0 "$node_(24) setdest 96.35 477.11 31.78"
+$ns_ at 30.0 "$node_(25) setdest 470.3 687.65 17.87"
+$ns_ at 30.0 "$node_(26) setdest 309.76 197.65 25.66"
+$ns_ at 30.0 "$node_(27) setdest 99.65 773.09 27.10"
+$ns_ at 30.0 "$node_(3) setdest 99.65 502.12 44.40"
+$ns_ at 30.0 "$node_(4) setdest 211.13 785.65 15.98"
+$ns_ at 30.0 "$node_(6) setdest 295.65 396.34 44.19"
+$ns_ at 30.0 "$node_(7) setdest 194.35 426.9 43.74"
+$ns_ at 30.0 "$node_(8) setdest 408.58 491.65 29.49"
+$ns_ at 30.0 "$node_(11) setdest 693.72 981.65 30.68"
+$ns_ at 33.0 "$node_(9) setdest 780.17 684.22 29.88"
+$ns_ at 33.0 "$node_(10) setdest 1.65 968.28 29.13"
+$ns_ at 33.0 "$node_(14) setdest 415.11 883.65 20.00"
+$ns_ at 33.0 "$node_(15) setdest 491.65 546.62 33.56"
+$ns_ at 33.0 "$node_(16) setdest 197.65 675.0 43.43"
+$ns_ at 33.0 "$node_(17) setdest 184.38 782.35 20.96"
+$ns_ at 33.0 "$node_(18) setdest 96.35 551.21 41.33"
+$ns_ at 33.0 "$node_(19) setdest 197.65 22.73 14.05"
+$ns_ at 33.0 "$node_(20) setdest 599.78 785.65 20.24"
+$ns_ at 33.0 "$node_(21) setdest 1.65 832.53 11.63"
+$ns_ at 33.0 "$node_(23) setdest 978.35 691.47 26.54"
+$ns_ at 33.0 "$node_(24) setdest 96.35 366.16 36.99"
+$ns_ at 33.0 "$node_(25) setdest 394.68 687.65 25.21"
+$ns_ at 33.0 "$node_(26) setdest 273.27 197.65 12.16"
+$ns_ at 33.0 "$node_(27) setdest 96.35 749.42 13.60"
+$ns_ at 33.0 "$node_(3) setdest 99.65 627.84 41.91"
+$ns_ at 33.0 "$node_(4) setdest 203.14 785.65 2.66"
+$ns_ at 33.0 "$node_(6) setdest 295.65 524.68 42.78"
+$ns_ at 33.0 "$node_(7) setdest 194.35 319.91 35.66"
+$ns_ at 33.0 "$node_(8) setdest 360.6 491.65 15.99"
+$ns_ at 33.0 "$node_(11) setdest 598.73 981.65 31.66"
+$ns_ at 36.0 "$node_(10) setdest 1.65 943.15 15.63"
+$ns_ at 36.0 "$node_(14) setdest 371.13 883.65 14.66"
+$ns_ at 36.0 "$node_(15) setdest 491.65 659.2 37.53"
+$ns_ at 36.0 "$node_(16) setdest 221.0 782.35 43.17"
+$ns_ at 36.0 "$node_(17) setdest 206.77 782.35 7.46"
+$ns_ at 36.0 "$node_(18) setdest 96.35 432.0 39.73"
+$ns_ at 36.0 "$node_(19) setdest 197.65 79.62 18.96"
+$ns_ at 36.0 "$node_(20) setdest 579.57 785.65 6.74"
+$ns_ at 36.0 "$node_(21) setdest 1.65 781.11 17.14"
+$ns_ at 36.0 "$node_(23) setdest 978.35 597.71 31.25"
+$ns_ at 36.0 "$node_(24) setdest 96.35 244.68 40.49"
+$ns_ at 36.0 "$node_(25) setdest 312.25 687.65 27.48"
+$ns_ at 36.0 "$node_(26) setdest 220.45 197.65 17.61"
+$ns_ at 36.0 "$node_(27) setdest 97.0 687.54 20.66"
+$ns_ at 36.0 "$node_(4) setdest 177.08 785.65 8.69"
+$ns_ at 36.0 "$node_(6) setdest 295.65 659.55 44.95"
+$ns_ at 36.0 "$node_(7) setdest 197.65 339.27 22.16"
+$ns_ at 36.0 "$node_(8) setdest 293.83 491.65 22.26"
+$ns_ at 36.0 "$node_(11) setdest 586.35 937.07 18.16"
+$ns_ at 39.0 "$node_(14) setdest 306.84 883.65 21.43"
+$ns_ at 39.0 "$node_(15) setdest 564.97 684.35 32.42"
+$ns_ at 39.0 "$node_(16) setdest 310.0 782.35 29.67"
+$ns_ at 39.0 "$node_(17) setdest 243.65 782.35 12.30"
+$ns_ at 39.0 "$node_(18) setdest 135.88 390.35 26.23"
+$ns_ at 39.0 "$node_(20) setdest 545.64 785.65 11.31"
+$ns_ at 39.0 "$node_(21) setdest 1.65 711.53 23.19"
+$ns_ at 39.0 "$node_(23) setdest 978.35 484.18 37.84"
+$ns_ at 39.0 "$node_(24) setdest 129.48 194.35 26.99"
+$ns_ at 39.0 "$node_(25) setdest 295.65 714.18 13.98"
+$ns_ at 39.0 "$node_(26) setdest 177.58 197.65 14.29"
+$ns_ at 39.0 "$node_(27) setdest 170.15 684.35 24.80"
+$ns_ at 39.0 "$node_(4) setdest 131.67 785.65 15.13"
+$ns_ at 39.0 "$node_(6) setdest 295.65 764.57 35.01"
+$ns_ at 39.0 "$node_(8) setdest 203.82 491.65 30.00"
+$ns_ at 39.0 "$node_(11) setdest 586.35 865.93 23.72"
+$ns_ at 42.0 "$node_(14) setdest 292.35 871.87 7.93"
+$ns_ at 42.0 "$node_(15) setdest 589.65 718.93 18.92"
+$ns_ at 42.0 "$node_(16) setdest 389.2 782.35 26.40"
+$ns_ at 42.0 "$node_(17) setdest 303.48 782.35 19.94"
+$ns_ at 42.0 "$node_(18) setdest 203.2 390.35 22.44"
+$ns_ at 42.0 "$node_(20) setdest 497.62 785.65 16.01"
+$ns_ at 42.0 "$node_(21) setdest 1.65 625.37 28.72"
+$ns_ at 42.0 "$node_(24) setdest 204.31 194.35 24.94"
+$ns_ at 42.0 "$node_(25) setdest 295.65 776.07 20.63"
+$ns_ at 42.0 "$node_(26) setdest 117.67 197.65 19.97"
+$ns_ at 42.0 "$node_(27) setdest 208.04 684.35 12.63"
+$ns_ at 42.0 "$node_(6) setdest 249.73 785.65 21.51"
+$ns_ at 42.0 "$node_(8) setdest 114.08 491.65 29.91"
+$ns_ at 42.0 "$node_(11) setdest 586.35 775.37 30.18"
+$ns_ at 45.0 "$node_(14) setdest 292.35 827.51 14.79"
+$ns_ at 45.0 "$node_(16) setdest 474.73 782.35 28.51"
+$ns_ at 45.0 "$node_(17) setdest 375.06 782.35 23.86"
+$ns_ at 45.0 "$node_(18) setdest 291.98 390.35 29.59"
+$ns_ at 45.0 "$node_(20) setdest 428.73 785.65 22.97"
+$ns_ at 45.0 "$node_(21) setdest 1.65 526.27 33.03"
+$ns_ at 45.0 "$node_(24) setdest 283.68 194.35 26.46"
+$ns_ at 45.0 "$node_(25) setdest 292.35 765.86 7.13"
+$ns_ at 45.0 "$node_(26) setdest 99.65 218.59 12.59"
+$ns_ at 45.0 "$node_(27) setdest 268.75 684.35 20.24"
+$ns_ at 45.0 "$node_(8) setdest 64.84 491.65 16.41"
+$ns_ at 45.0 "$node_(11) setdest 563.1 687.65 36.59"
+$ns_ at 48.0 "$node_(14) setdest 292.35 768.4 19.70"
+$ns_ at 48.0 "$node_(16) setdest 519.75 782.35 15.01"
+$ns_ at 48.0 "$node_(17) setdest 406.15 782.35 10.36"
+$ns_ at 48.0 "$node_(18) setdest 374.01 390.35 27.34"
+$ns_ at 48.0 "$node_(20) setdest 379.93 785.65 16.27"
+$ns_ at 48.0 "$node_(21) setdest 1.65 422.67 34.54"
+$ns_ at 48.0 "$node_(24) setdest 322.55 194.35 12.96"
+$ns_ at 48.0 "$node_(25) setdest 292.35 723.21 14.21"
+$ns_ at 48.0 "$node_(26) setdest 99.65 275.1 18.84"
+$ns_ at 48.0 "$node_(27) setdest 314.11 684.35 15.12"
+$ns_ at 48.0 "$node_(8) setdest 1.66 494.69 21.68"
+$ns_ at 51.0 "$node_(14) setdest 292.35 712.91 18.50"
+$ns_ at 51.0 "$node_(16) setdest 584.34 782.35 21.53"
+$ns_ at 51.0 "$node_(17) setdest 457.09 782.35 16.98"
+$ns_ at 51.0 "$node_(18) setdest 415.53 390.35 13.84"
+$ns_ at 51.0 "$node_(20) setdest 315.84 785.65 21.36"
+$ns_ at 51.0 "$node_(21) setdest 31.62 390.35 21.04"
+$ns_ at 51.0 "$node_(24) setdest 373.66 194.35 17.04"
+$ns_ at 51.0 "$node_(26) setdest 99.65 344.53 23.14"
+$ns_ at 51.0 "$node_(27) setdest 372.33 684.35 19.41"
+$ns_ at 51.0 "$node_(8) setdest 1.65 571.73 25.68"
+$ns_ at 54.0 "$node_(14) setdest 292.35 643.26 23.22"
+$ns_ at 54.0 "$node_(16) setdest 671.41 782.35 29.02"
+$ns_ at 54.0 "$node_(17) setdest 501.44 782.35 14.78"
+$ns_ at 54.0 "$node_(18) setdest 476.38 390.35 20.28"
+$ns_ at 54.0 "$node_(20) setdest 283.93 785.65 10.64"
+$ns_ at 54.0 "$node_(21) setdest 104.38 390.35 24.25"
+$ns_ at 54.0 "$node_(24) setdest 384.27 194.35 3.54"
+$ns_ at 54.0 "$node_(26) setdest 90.41 393.65 18.63"
+$ns_ at 54.0 "$node_(27) setdest 413.63 684.35 13.77"
+$ns_ at 54.0 "$node_(8) setdest 78.69 586.35 30.15"
+$ns_ at 57.0 "$node_(14) setdest 292.35 560.22 27.68"
+$ns_ at 57.0 "$node_(16) setdest 717.98 782.35 15.52"
+$ns_ at 57.0 "$node_(17) setdest 567.5 782.35 22.02"
+$ns_ at 57.0 "$node_(18) setdest 496.72 390.35 6.78"
+$ns_ at 57.0 "$node_(20) setdest 229.35 785.65 18.19"
+$ns_ at 57.0 "$node_(21) setdest 192.67 391.53 29.58"
+$ns_ at 57.0 "$node_(24) setdest 418.18 194.35 11.31"
+$ns_ at 57.0 "$node_(26) setdest 14.05 393.65 25.45"
+$ns_ at 57.0 "$node_(27) setdest 477.66 684.35 21.34"
+$ns_ at 60.0 "$node_(14) setdest 292.35 456.83 34.46"
+$ns_ at 60.0 "$node_(16) setdest 783.5 782.35 21.84"
+$ns_ at 60.0 "$node_(17) setdest 601.37 782.35 11.29"
+$ns_ at 60.0 "$node_(18) setdest 533.49 390.35 12.26"
+$ns_ at 60.0 "$node_(20) setdest 180.18 785.65 16.39"
+$ns_ at 60.0 "$node_(24) setdest 464.97 194.35 15.60"
+$ns_ at 60.0 "$node_(27) setdest 501.19 684.35 7.84"
+$ns_ at 63.0 "$node_(14) setdest 292.35 331.02 41.94"
+$ns_ at 63.0 "$node_(16) setdest 871.46 782.35 29.32"
+$ns_ at 63.0 "$node_(17) setdest 655.42 782.35 18.02"
+$ns_ at 63.0 "$node_(18) setdest 579.41 393.65 19.47"
+$ns_ at 63.0 "$node_(20) setdest 108.92 785.65 23.75"
+$ns_ at 63.0 "$node_(24) setdest 500.94 194.35 11.99"
+$ns_ at 63.0 "$node_(27) setdest 542.12 684.35 13.64"
+$ns_ at 66.0 "$node_(14) setdest 292.35 196.73 44.76"
+$ns_ at 66.0 "$node_(16) setdest 880.35 742.59 15.82"
+$ns_ at 66.0 "$node_(17) setdest 702.72 782.35 15.77"
+$ns_ at 66.0 "$node_(18) setdest 508.99 393.65 23.47"
+$ns_ at 66.0 "$node_(20) setdest 96.35 764.99 10.25"
+$ns_ at 66.0 "$node_(24) setdest 549.76 194.35 16.27"
+$ns_ at 66.0 "$node_(27) setdest 593.47 684.35 17.12"
+$ns_ at 69.0 "$node_(14) setdest 256.37 99.65 43.95"
+$ns_ at 69.0 "$node_(17) setdest 767.33 782.35 21.54"
+$ns_ at 69.0 "$node_(20) setdest 96.35 720.82 14.72"
+$ns_ at 69.0 "$node_(24) setdest 589.65 206.15 16.40"
+$ns_ at 69.0 "$node_(27) setdest 664.03 684.35 23.52"
+$ns_ at 72.0 "$node_(17) setdest 791.43 782.35 8.04"
+$ns_ at 72.0 "$node_(20) setdest 96.35 664.2 18.87"
+$ns_ at 72.0 "$node_(24) setdest 589.65 267.4 20.42"
+$ns_ at 72.0 "$node_(27) setdest 704.58 684.35 13.52"
+$ns_ at 75.0 "$node_(17) setdest 827.35 782.35 11.97"
+$ns_ at 75.0 "$node_(20) setdest 96.35 590.24 24.66"
+$ns_ at 75.0 "$node_(27) setdest 761.1 684.35 18.84"
+$ns_ at 78.0 "$node_(17) setdest 878.81 783.83 17.37"
+$ns_ at 78.0 "$node_(20) setdest 96.35 499.19 30.35"
+$ns_ at 78.0 "$node_(27) setdest 785.65 706.13 14.62"
+$ns_ at 81.0 "$node_(17) setdest 814.53 785.65 21.77"
+$ns_ at 81.0 "$node_(20) setdest 96.35 388.59 36.87"
+$ns_ at 81.0 "$node_(27) setdest 785.65 764.81 19.56"
+$ns_ at 84.0 "$node_(20) setdest 96.35 261.27 42.44"
+$ns_ at 87.0 "$node_(20) setdest 96.35 126.44 44.94"

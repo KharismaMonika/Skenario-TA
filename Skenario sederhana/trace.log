@@ -1,0 +1,273 @@
+0.00000|0|DSDV_Agent::startUp 
+0.00000|1|DSDV_Agent::startUp 
+0.00000|2|DSDV_Agent::startUp 
+
+0.00068|0|DSDV_Agent::makeUpdate [per=1]|paket send to broadcast|periodic update increment seq num|
+
+0.00238|2|DSDV_Agent::recv|
+0.00238|2|DSDV_Agent::updateRoute|
+0.00238|2|DSDV_Agent::needTriggeredUpdate|
+0.00238|2|DSDV_Agent::processUpdate|terima paket dari 0 |mulai akses datapacket|pengisian metadata|inisialisasi wst untuk rute baru|mendengar ada tetangga baru|reschedule timeout neighbor|
+0.02841|2|DSDV_Agent::makeUpdate [per=1]|paket send to broadcast|periodic update increment seq num|
+
+0.03775|0|DSDV_Agent::recv|
+0.03775|0|DSDV_Agent::updateRoute|
+0.03775|0|DSDV_Agent::needTriggeredUpdate|
+0.03775|0|DSDV_Agent::processUpdate|terima paket dari 2 |mulai akses datapacket|pengisian metadata|inisialisasi wst untuk rute baru|mendengar ada tetangga baru|reschedule timeout neighbor|
+0.03775|1|DSDV_Agent::recv|
+0.03775|1|DSDV_Agent::updateRoute|
+0.03775|1|DSDV_Agent::needTriggeredUpdate|
+0.03775|1|DSDV_Agent::processUpdate|terima paket dari 2 |mulai akses datapacket|pengisian metadata|inisialisasi wst untuk rute baru|mendengar ada tetangga baru|reschedule timeout neighbor|
+1.11176|1|DSDV_Agent::makeUpdate [per=1]|paket send to broadcast|periodic update increment seq num|
+
+1.12149|2|DSDV_Agent::recv|
+1.12149|2|DSDV_Agent::updateRoute|
+1.12149|2|DSDV_Agent::needTriggeredUpdate|
+1.12149|2|DSDV_Agent::processUpdate|terima paket dari 1 |mulai akses datapacket|pengisian metadata|inisialisasi wst untuk rute baru|mendengar ada tetangga baru|reschedule timeout neighbor|
+12.00238|2|DSDV_Agent::makeUpdate [per=0]|paket send to broadcast|
+
+12.00238|2|DSDVTriggerHandler::handle|call makeUpdate untuk triggerpacket tdk null|schedule broadcast, catat last update|
+
+12.00458|0|DSDV_Agent::recv|
+12.00458|0|DSDV_Agent::processUpdate|terima paket dari 2 |mulai akses datapacket|dst alamatku|reschedule timeout neighbor|
+12.00458|1|DSDV_Agent::recv|
+12.00458|1|DSDV_Agent::updateRoute|
+12.00458|1|DSDV_Agent::needTriggeredUpdate|
+12.00458|1|DSDV_Agent::processUpdate|terima paket dari 2 |mulai akses datapacket|pengisian metadata|inisialisasi wst untuk rute baru|mendengar ada tetangga baru|reschedule timeout neighbor|
+12.03775|0|DSDV_Agent::makeUpdate [per=0]|paket send to broadcast|
+
+12.03775|0|DSDVTriggerHandler::handle|call makeUpdate untuk triggerpacket tdk null|schedule broadcast, catat last update|
+
+12.03775|1|DSDV_Agent::makeUpdate [per=0]|paket send to broadcast|
+
+12.03775|1|DSDVTriggerHandler::handle|call makeUpdate untuk triggerpacket tdk null|schedule broadcast, catat last update|
+
+12.03984|2|DSDV_Agent::recv|
+12.03984|2|DSDV_Agent::processUpdate|terima paket dari 1 |mulai akses datapacket|dst alamatku|reschedule timeout neighbor|
+12.04117|2|DSDV_Agent::recv|
+12.04117|2|DSDV_Agent::processUpdate|terima paket dari 0 |mulai akses datapacket|dst alamatku|reschedule timeout neighbor|
+13.12149|2|DSDV_Agent::makeUpdate [per=0]|paket send to broadcast|
+
+13.12149|2|DSDVTriggerHandler::handle|call makeUpdate untuk triggerpacket tdk null|schedule broadcast, catat last update|
+
+13.12803|0|DSDV_Agent::recv|
+13.12803|0|DSDV_Agent::updateRoute|
+13.12803|0|DSDV_Agent::needTriggeredUpdate|
+13.12803|0|DSDV_Agent::processUpdate|terima paket dari 2 |mulai akses datapacket|dst alamatku|pengisian metadata|inisialisasi wst untuk rute baru|mendengar ada tetangga baru|reschedule timeout neighbor|
+13.12803|1|DSDV_Agent::recv|
+13.12803|1|DSDV_Agent::processUpdate|terima paket dari 2 |mulai akses datapacket|pengisian metadata|dst alamatku|reschedule timeout neighbor|
+15.07533|2|DSDV_Agent::makeUpdate [per=1]|paket send to broadcast|periodic update increment seq num|
+
+15.08550|0|DSDV_Agent::recv|
+15.08550|0|DSDV_Agent::updateRoute|
+15.08550|0|DSDV_Agent::processUpdate|terima paket dari 2 |mulai akses datapacket|dst alamatku|pengisian metadata|pengisian metadata|reschedule timeout neighbor|
+15.08550|1|DSDV_Agent::recv|
+15.08550|1|DSDV_Agent::updateRoute|
+15.08550|1|DSDV_Agent::processUpdate|terima paket dari 2 |mulai akses datapacket|pengisian metadata|dst alamatku|pengisian metadata|reschedule timeout neighbor|
+15.08891|0|DSDV_Agent::makeUpdate [per=1]|paket send to broadcast|periodic update increment seq num|
+
+15.09861|2|DSDV_Agent::recv|
+15.09861|2|DSDV_Agent::updateRoute|
+15.09861|2|DSDV_Agent::processUpdate|terima paket dari 0 |mulai akses datapacket|pengisian metadata|reschedule timeout neighbor|
+16.14459|1|DSDV_Agent::makeUpdate [per=1]|paket send to broadcast|periodic update increment seq num|
+
+16.14967|2|DSDV_Agent::recv|
+16.14967|2|DSDV_Agent::updateRoute|
+16.14967|2|DSDV_Agent::processUpdate|terima paket dari 1 |mulai akses datapacket|pengisian metadata|reschedule timeout neighbor|
+24.00458|1|DSDV_Agent::makeUpdate [per=0]|paket send to broadcast|
+
+24.00458|1|DSDVTriggerHandler::handle|call makeUpdate untuk triggerpacket tdk null|schedule broadcast, catat last update|
+
+24.01449|2|DSDV_Agent::recv|
+24.01449|2|DSDV_Agent::processUpdate|terima paket dari 1 |mulai akses datapacket|pengisian metadata|reschedule timeout neighbor|
+25.12803|0|DSDV_Agent::makeUpdate [per=0]|paket send to broadcast|
+
+25.12803|0|DSDVTriggerHandler::handle|call makeUpdate untuk triggerpacket tdk null|schedule broadcast, catat last update|
+
+25.13003|2|DSDV_Agent::recv|
+25.13003|2|DSDV_Agent::processUpdate|terima paket dari 0 |mulai akses datapacket|pengisian metadata|reschedule timeout neighbor|
+30.22438|0|DSDV_Agent::makeUpdate [per=1]|paket send to broadcast|periodic update increment seq num|
+
+30.23163|2|DSDV_Agent::recv|
+30.23163|2|DSDV_Agent::updateRoute|
+30.23163|2|DSDV_Agent::processUpdate|terima paket dari 0 |mulai akses datapacket|pengisian metadata|pengisian metadata|dst alamatku|reschedule timeout neighbor|
+30.24329|2|DSDV_Agent::makeUpdate [per=1]|paket send to broadcast|periodic update increment seq num|
+
+30.24678|0|DSDV_Agent::recv|
+30.24678|0|DSDV_Agent::updateRoute|
+30.24678|0|DSDV_Agent::updateRoute|
+30.24678|0|DSDV_Agent::processUpdate|terima paket dari 2 |mulai akses datapacket|pengisian metadata|pengisian metadata|reschedule timeout neighbor|
+30.24678|1|DSDV_Agent::recv|
+30.24678|1|DSDV_Agent::updateRoute|
+30.24678|1|DSDV_Agent::processUpdate|terima paket dari 2 |mulai akses datapacket|dst alamatku|pengisian metadata|reschedule timeout neighbor|
+31.16643|1|DSDV_Agent::makeUpdate [per=1]|paket send to broadcast|periodic update increment seq num|
+
+31.17019|2|DSDV_Agent::recv|
+31.17019|2|DSDV_Agent::updateRoute|
+31.17019|2|DSDV_Agent::processUpdate|terima paket dari 1 |mulai akses datapacket|pengisian metadata|pengisian metadata|reschedule timeout neighbor|
+45.29152|0|DSDV_Agent::makeUpdate [per=1]|paket send to broadcast|periodic update increment seq num|
+
+45.29604|2|DSDV_Agent::recv|
+45.29604|2|DSDV_Agent::updateRoute|
+45.29604|2|DSDV_Agent::processUpdate|terima paket dari 0 |mulai akses datapacket|pengisian metadata|pengisian metadata|dst alamatku|reschedule timeout neighbor|
+45.38303|2|DSDV_Agent::makeUpdate [per=1]|paket send to broadcast|periodic update increment seq num|
+
+45.39215|0|DSDV_Agent::recv|
+45.39215|0|DSDV_Agent::updateRoute|
+45.39215|0|DSDV_Agent::updateRoute|
+45.39215|0|DSDV_Agent::processUpdate|terima paket dari 2 |mulai akses datapacket|pengisian metadata|pengisian metadata|reschedule timeout neighbor|
+45.39215|1|DSDV_Agent::recv|
+45.39215|1|DSDV_Agent::updateRoute|
+45.39215|1|DSDV_Agent::processUpdate|terima paket dari 2 |mulai akses datapacket|dst alamatku|pengisian metadata|reschedule timeout neighbor|
+46.27740|1|DSDV_Agent::makeUpdate [per=1]|paket send to broadcast|periodic update increment seq num|
+
+46.28811|2|DSDV_Agent::recv|
+46.28811|2|DSDV_Agent::updateRoute|
+46.28811|2|DSDV_Agent::processUpdate|terima paket dari 1 |mulai akses datapacket|pengisian metadata|pengisian metadata|reschedule timeout neighbor|
+60.32876|0|DSDV_Agent::makeUpdate [per=1]|paket send to broadcast|periodic update increment seq num|
+
+60.33852|2|DSDV_Agent::recv|
+60.33852|2|DSDV_Agent::updateRoute|
+60.33852|2|DSDV_Agent::processUpdate|terima paket dari 0 |mulai akses datapacket|pengisian metadata|pengisian metadata|dst alamatku|reschedule timeout neighbor|
+60.42438|2|DSDV_Agent::makeUpdate [per=1]|paket send to broadcast|periodic update increment seq num|
+
+60.42623|0|DSDV_Agent::recv|
+60.42623|0|DSDV_Agent::updateRoute|
+60.42623|0|DSDV_Agent::updateRoute|
+60.42623|0|DSDV_Agent::processUpdate|terima paket dari 2 |mulai akses datapacket|pengisian metadata|pengisian metadata|reschedule timeout neighbor|
+60.42623|1|DSDV_Agent::recv|
+60.42623|1|DSDV_Agent::updateRoute|
+60.42623|1|DSDV_Agent::processUpdate|terima paket dari 2 |mulai akses datapacket|dst alamatku|pengisian metadata|reschedule timeout neighbor|
+61.29567|1|DSDV_Agent::makeUpdate [per=1]|paket send to broadcast|periodic update increment seq num|
+
+61.30539|2|DSDV_Agent::recv|
+61.30539|2|DSDV_Agent::updateRoute|
+61.30539|2|DSDV_Agent::processUpdate|terima paket dari 1 |mulai akses datapacket|pengisian metadata|pengisian metadata|reschedule timeout neighbor|
+75.43534|0|DSDV_Agent::makeUpdate [per=1]|paket send to broadcast|periodic update increment seq num|
+
+75.44035|2|DSDV_Agent::recv|
+75.44035|2|DSDV_Agent::updateRoute|
+75.44035|2|DSDV_Agent::processUpdate|terima paket dari 0 |mulai akses datapacket|pengisian metadata|pengisian metadata|dst alamatku|reschedule timeout neighbor|
+75.58726|2|DSDV_Agent::makeUpdate [per=1]|paket send to broadcast|periodic update increment seq num|
+
+75.59511|0|DSDV_Agent::recv|
+75.59511|0|DSDV_Agent::updateRoute|
+75.59511|0|DSDV_Agent::updateRoute|
+75.59511|0|DSDV_Agent::processUpdate|terima paket dari 2 |mulai akses datapacket|pengisian metadata|pengisian metadata|reschedule timeout neighbor|
+75.59511|1|DSDV_Agent::recv|
+75.59511|1|DSDV_Agent::updateRoute|
+75.59511|1|DSDV_Agent::processUpdate|terima paket dari 2 |mulai akses datapacket|dst alamatku|pengisian metadata|reschedule timeout neighbor|
+76.41289|1|DSDV_Agent::makeUpdate [per=1]|paket send to broadcast|periodic update increment seq num|
+
+76.41776|2|DSDV_Agent::recv|
+76.41776|2|DSDV_Agent::updateRoute|
+76.41776|2|DSDV_Agent::processUpdate|terima paket dari 1 |mulai akses datapacket|pengisian metadata|pengisian metadata|reschedule timeout neighbor|
+90.54702|0|DSDV_Agent::makeUpdate [per=1]|paket send to broadcast|periodic update increment seq num|
+
+90.55539|2|DSDV_Agent::recv|
+90.55539|2|DSDV_Agent::updateRoute|
+90.55539|2|DSDV_Agent::processUpdate|terima paket dari 0 |mulai akses datapacket|pengisian metadata|pengisian metadata|dst alamatku|reschedule timeout neighbor|
+90.61725|2|DSDV_Agent::makeUpdate [per=1]|paket send to broadcast|periodic update increment seq num|
+
+90.62122|0|DSDV_Agent::recv|
+90.62122|0|DSDV_Agent::updateRoute|
+90.62122|0|DSDV_Agent::updateRoute|
+90.62122|0|DSDV_Agent::processUpdate|terima paket dari 2 |mulai akses datapacket|pengisian metadata|pengisian metadata|reschedule timeout neighbor|
+90.62122|1|DSDV_Agent::recv|
+90.62122|1|DSDV_Agent::updateRoute|
+90.62122|1|DSDV_Agent::processUpdate|terima paket dari 2 |mulai akses datapacket|dst alamatku|pengisian metadata|reschedule timeout neighbor|
+91.41293|1|DSDV_Agent::makeUpdate [per=1]|paket send to broadcast|periodic update increment seq num|
+
+91.42306|2|DSDV_Agent::recv|
+91.42306|2|DSDV_Agent::updateRoute|
+91.42306|2|DSDV_Agent::processUpdate|terima paket dari 1 |mulai akses datapacket|pengisian metadata|pengisian metadata|reschedule timeout neighbor|
+105.61792|2|DSDV_Agent::makeUpdate [per=1]|paket send to broadcast|periodic update increment seq num|
+
+105.62651|0|DSDV_Agent::recv|
+105.62651|0|DSDV_Agent::updateRoute|
+105.62651|0|DSDV_Agent::updateRoute|
+105.62651|0|DSDV_Agent::processUpdate|terima paket dari 2 |mulai akses datapacket|dst alamatku|pengisian metadata|pengisian metadata|reschedule timeout neighbor|
+105.62651|1|DSDV_Agent::recv|
+105.62651|1|DSDV_Agent::updateRoute|
+105.62651|1|DSDV_Agent::updateRoute|
+105.62651|1|DSDV_Agent::processUpdate|terima paket dari 2 |mulai akses datapacket|pengisian metadata|dst alamatku|pengisian metadata|reschedule timeout neighbor|
+105.72941|0|DSDV_Agent::makeUpdate [per=1]|paket send to broadcast|periodic update increment seq num|
+
+105.73480|2|DSDV_Agent::recv|
+105.73480|2|DSDV_Agent::updateRoute|
+105.73480|2|DSDV_Agent::processUpdate|terima paket dari 0 |mulai akses datapacket|pengisian metadata|reschedule timeout neighbor|
+106.57409|1|DSDV_Agent::makeUpdate [per=1]|paket send to broadcast|periodic update increment seq num|
+
+106.57931|2|DSDV_Agent::recv|
+106.57931|2|DSDV_Agent::updateRoute|
+106.57931|2|DSDV_Agent::processUpdate|terima paket dari 1 |mulai akses datapacket|pengisian metadata|reschedule timeout neighbor|
+120.74100|2|DSDV_Agent::makeUpdate [per=1]|paket send to broadcast|periodic update increment seq num|
+
+120.74417|0|DSDV_Agent::recv|
+120.74417|0|DSDV_Agent::updateRoute|
+120.74417|0|DSDV_Agent::updateRoute|
+120.74417|0|DSDV_Agent::processUpdate|terima paket dari 2 |mulai akses datapacket|dst alamatku|pengisian metadata|pengisian metadata|reschedule timeout neighbor|
+120.74417|1|DSDV_Agent::recv|
+120.74417|1|DSDV_Agent::updateRoute|
+120.74417|1|DSDV_Agent::updateRoute|
+120.74417|1|DSDV_Agent::processUpdate|terima paket dari 2 |mulai akses datapacket|pengisian metadata|dst alamatku|pengisian metadata|reschedule timeout neighbor|
+120.77093|0|DSDV_Agent::makeUpdate [per=1]|paket send to broadcast|periodic update increment seq num|
+
+120.77949|2|DSDV_Agent::recv|
+120.77949|2|DSDV_Agent::updateRoute|
+120.77949|2|DSDV_Agent::processUpdate|terima paket dari 0 |mulai akses datapacket|pengisian metadata|reschedule timeout neighbor|
+121.64034|1|DSDV_Agent::makeUpdate [per=1]|paket send to broadcast|periodic update increment seq num|
+
+121.65020|2|DSDV_Agent::recv|
+121.65020|2|DSDV_Agent::updateRoute|
+121.65020|2|DSDV_Agent::processUpdate|terima paket dari 1 |mulai akses datapacket|pengisian metadata|reschedule timeout neighbor|
+135.82708|2|DSDV_Agent::makeUpdate [per=1]|paket send to broadcast|periodic update increment seq num|
+
+135.82986|0|DSDV_Agent::recv|
+135.82986|0|DSDV_Agent::updateRoute|
+135.82986|0|DSDV_Agent::updateRoute|
+135.82986|0|DSDV_Agent::processUpdate|terima paket dari 2 |mulai akses datapacket|dst alamatku|pengisian metadata|pengisian metadata|reschedule timeout neighbor|
+135.82986|1|DSDV_Agent::recv|
+135.82986|1|DSDV_Agent::updateRoute|
+135.82986|1|DSDV_Agent::updateRoute|
+135.82986|1|DSDV_Agent::processUpdate|terima paket dari 2 |mulai akses datapacket|pengisian metadata|dst alamatku|pengisian metadata|reschedule timeout neighbor|
+135.86789|0|DSDV_Agent::makeUpdate [per=1]|paket send to broadcast|periodic update increment seq num|
+
+135.87633|2|DSDV_Agent::recv|
+135.87633|2|DSDV_Agent::updateRoute|
+135.87633|2|DSDV_Agent::processUpdate|terima paket dari 0 |mulai akses datapacket|pengisian metadata|reschedule timeout neighbor|
+136.67204|1|DSDV_Agent::makeUpdate [per=1]|paket send to broadcast|periodic update increment seq num|
+
+136.67678|2|DSDV_Agent::recv|
+136.67678|2|DSDV_Agent::updateRoute|
+136.67678|2|DSDV_Agent::processUpdate|terima paket dari 1 |mulai akses datapacket|pengisian metadata|reschedule timeout neighbor|
+136.67204|1|DSDV_Agent::helper_callback|call makeUpdate|broadcast periodick packet|penjadwalan next periodic dan catat last update|
+135.86789|0|DSDV_Agent::helper_callback|call makeUpdate|broadcast periodick packet|penjadwalan next periodic dan catat last update|
+135.82708|2|DSDV_Agent::helper_callback|call makeUpdate|broadcast periodick packet|penjadwalan next periodic dan catat last update|
+121.64034|1|DSDV_Agent::helper_callback|call makeUpdate|broadcast periodick packet|penjadwalan next periodic dan catat last update|
+120.77093|0|DSDV_Agent::helper_callback|call makeUpdate|broadcast periodick packet|penjadwalan next periodic dan catat last update|
+120.74100|2|DSDV_Agent::helper_callback|call makeUpdate|broadcast periodick packet|penjadwalan next periodic dan catat last update|
+106.57409|1|DSDV_Agent::helper_callback|call makeUpdate|broadcast periodick packet|penjadwalan next periodic dan catat last update|
+105.72941|0|DSDV_Agent::helper_callback|call makeUpdate|broadcast periodick packet|penjadwalan next periodic dan catat last update|
+105.61792|2|DSDV_Agent::helper_callback|call makeUpdate|broadcast periodick packet|penjadwalan next periodic dan catat last update|
+91.41293|1|DSDV_Agent::helper_callback|call makeUpdate|broadcast periodick packet|penjadwalan next periodic dan catat last update|
+90.61725|2|DSDV_Agent::helper_callback|call makeUpdate|broadcast periodick packet|penjadwalan next periodic dan catat last update|
+90.54702|0|DSDV_Agent::helper_callback|call makeUpdate|broadcast periodick packet|penjadwalan next periodic dan catat last update|
+76.41289|1|DSDV_Agent::helper_callback|call makeUpdate|broadcast periodick packet|penjadwalan next periodic dan catat last update|
+75.58726|2|DSDV_Agent::helper_callback|call makeUpdate|broadcast periodick packet|penjadwalan next periodic dan catat last update|
+75.43534|0|DSDV_Agent::helper_callback|call makeUpdate|broadcast periodick packet|penjadwalan next periodic dan catat last update|
+61.29567|1|DSDV_Agent::helper_callback|call makeUpdate|broadcast periodick packet|penjadwalan next periodic dan catat last update|
+60.42438|2|DSDV_Agent::helper_callback|call makeUpdate|broadcast periodick packet|penjadwalan next periodic dan catat last update|
+60.32876|0|DSDV_Agent::helper_callback|call makeUpdate|broadcast periodick packet|penjadwalan next periodic dan catat last update|
+46.27740|1|DSDV_Agent::helper_callback|call makeUpdate|broadcast periodick packet|penjadwalan next periodic dan catat last update|
+45.38303|2|DSDV_Agent::helper_callback|call makeUpdate|broadcast periodick packet|penjadwalan next periodic dan catat last update|
+45.29152|0|DSDV_Agent::helper_callback|call makeUpdate|broadcast periodick packet|penjadwalan next periodic dan catat last update|
+31.16643|1|DSDV_Agent::helper_callback|call makeUpdate|broadcast periodick packet|penjadwalan next periodic dan catat last update|
+30.24329|2|DSDV_Agent::helper_callback|call makeUpdate|broadcast periodick packet|penjadwalan next periodic dan catat last update|
+30.22438|0|DSDV_Agent::helper_callback|call makeUpdate|broadcast periodick packet|penjadwalan next periodic dan catat last update|
+16.14459|1|DSDV_Agent::helper_callback|call makeUpdate|broadcast periodick packet|penjadwalan next periodic dan catat last update|
+15.08891|0|DSDV_Agent::helper_callback|call makeUpdate|broadcast periodick packet|penjadwalan next periodic dan catat last update|
+15.07533|2|DSDV_Agent::helper_callback|call makeUpdate|broadcast periodick packet|penjadwalan next periodic dan catat last update|
+1.11176|1|DSDV_Agent::helper_callback|call makeUpdate|broadcast periodick packet|penjadwalan next periodic dan catat last update|
+0.02841|2|DSDV_Agent::helper_callback|call makeUpdate|broadcast periodick packet|penjadwalan next periodic dan catat last update|
+0.00068|0|DSDV_Agent::helper_callback|call makeUpdate|broadcast periodick packet|penjadwalan next periodic dan catat last update|

@@ -26,6 +26,7 @@
 END {
   #printf("sent_packets\t %d\n",sent)
   #printf("received_packets %d\n",receive)
-  printf("\nPDR %.2f\n",(receive/sent)*100);
-  printf("Average Throughput[kbps] = %.2f\tStartTime=%.2f\tStopTime = %.2f\n", (recvdSize/(stopTime-startTime))*(8/1000),startTime,stopTime);
+  #printf("\nPDR %.2f\n",(receive/sent)*100);
+  #printf("Average Throughput[kbps] = %.2f\tStartTime=%.2f\tStopTime = %.2f\n", (recvdSize/(stopTime-startTime))*(8/1000),startTime,stopTime);
+  printf("%.2f|", (recvdSize/(stopTime-startTime))*(8/1000));
 }

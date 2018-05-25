@@ -8,5 +8,6 @@ rt_pkts++;
 }
 
 END {
-printf ("Total number of routing packets\t%d\n",rt_pkts);
+#printf ("Total number of routing packets\t%d\n",rt_pkts);
+printf ("%d|",rt_pkts);
 }

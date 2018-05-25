@@ -22,6 +22,7 @@ received=0;
 END {
  #printf " Packet Sent:%d",sent;
  #printf "\n Packet Received:%d",received;
- printf "\n Packet Delivery Ratio:%.2f\n",(received/sent)*100;
+ #printf "\n Packet Delivery Ratio:%.2f\n",(received/sent)*100;
+ printf "%.2f|",(received/sent)*100;
 
 }

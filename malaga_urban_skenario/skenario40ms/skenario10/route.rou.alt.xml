@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Tue Apr  3 18:25:29 2018 by SUMO duarouter Version 0.32.0
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="mapgrid.net.xml"/>
+        <route-files value="trips.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="route.rou.xml"/>
+        <alternatives-output value="route.rou.alt.xml"/>
+    </output>
+
+    <processing>
+        <ignore-errors value="true"/>
+        <repair value="true"/>
+    </processing>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vehicle id="0" depart="0.00" departLane="best" departPos="random_free" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="17.25" probability="1.00000000" edges="3/0to2/0 2/0to3/0 3/0to4/0 4/0to4/1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="1" depart="1.00" departLane="best" departPos="random_free" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="17.25" probability="1.00000000" edges="3/2to4/2 4/2to4/1 4/1to3/1 3/1to4/1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="2" depart="2.00" departLane="best" departPos="random_free" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="20.10" probability="1.00000000" edges="3/2to2/2 2/2to2/1 2/1to2/0 2/0to3/0 3/0to4/0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="3" depart="3.00" departLane="best" departPos="random_free" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="29.70" probability="1.00000000" edges="0/2to1/2 1/2to1/1 1/1to1/0 1/0to2/0 2/0to3/0 3/0to4/0 4/0to3/0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="4" depart="4.00" departLane="best" departPos="random_free" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="18.22" probability="1.00000000" edges="4/0to4/1 4/1to3/1 3/1to3/0 3/0to2/0 2/0to2/1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="5" depart="5.00" departLane="best" departPos="random_free" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="17.25" probability="1.00000000" edges="3/0to4/0 4/0to4/1 4/1to3/1 3/1to4/1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="6" depart="6.00" departLane="best" departPos="random_free" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="13.46" probability="1.00000000" edges="4/0to4/1 4/1to3/1 3/1to3/0 3/0to3/1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="7" depart="7.00" departLane="best" departPos="random_free" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="10.54" probability="1.00000000" edges="2/1to2/0 2/0to2/1 2/1to1/1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="8" depart="8.00" departLane="best" departPos="random_free" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="14.29" probability="1.00000000" edges="1/2to2/2 2/2to3/2 3/2to2/2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="9" depart="9.00" departLane="best" departPos="random_free" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="18.19" probability="1.00000000" edges="2/1to2/0 2/0to2/1 2/1to2/2 2/2to1/2 1/2to2/2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="10" depart="10.00" departLane="best" departPos="random_free" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="26.70" probability="1.00000000" edges="2/0to1/0 1/0to1/1 1/1to2/1 2/1to3/1 3/1to4/1 4/1to3/1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="11" depart="11.00" departLane="best" departPos="random_free" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="18.22" probability="1.00000000" edges="4/0to3/0 3/0to3/1 3/1to3/2 3/2to2/2 2/2to2/1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="12" depart="12.00" departLane="best" departPos="random_free" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="20.10" probability="1.00000000" edges="3/0to3/1 3/1to3/2 3/2to2/2 2/2to1/2 1/2to0/2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="13" depart="13.00" departLane="best" departPos="random_free" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="15.38" probability="1.00000000" edges="0/0to1/0 1/0to1/1 1/1to0/1 0/1to0/2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="14" depart="14.00" departLane="best" departPos="random_free" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="17.21" probability="1.00000000" edges="0/0to0/1 0/1to1/1 1/1to2/1 2/1to3/1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="15" depart="15.00" departLane="best" departPos="random_free" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="12.41" probability="1.00000000" edges="3/1to2/1 2/1to2/0 2/0to3/0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="16" depart="16.00" departLane="best" departPos="random_free" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="7.65" probability="1.00000000" edges="1/0to1/1 1/1to2/1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="17" depart="17.00" departLane="best" departPos="random_free" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="7.65" probability="1.00000000" edges="2/2to2/1 2/1to3/1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="18" depart="18.00" departLane="best" departPos="random_free" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="14.29" probability="1.00000000" edges="1/1to2/1 2/1to3/1 3/1to2/1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="19" depart="19.00" departLane="best" departPos="random_free" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="12.41" probability="1.00000000" edges="3/2to2/2 2/2to3/2 3/2to3/1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="20" depart="20.00" departLane="best" departPos="random_free" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="14.32" probability="1.00000000" edges="3/0to2/0 2/0to1/0 1/0to0/0"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="21" depart="21.00" departLane="best" departPos="random_free" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="12.45" probability="1.00000000" edges="4/0to4/1 4/1to3/1 3/1to2/1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="22" depart="22.00" departLane="best" departPos="random_free" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="21.94" probability="1.00000000" edges="3/2to2/2 2/2to2/1 2/1to3/1 3/1to4/1 4/1to3/1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="23" depart="23.00" departLane="best" departPos="random_free" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="20.06" probability="1.00000000" edges="3/1to3/0 3/0to3/1 3/1to2/1 2/1to1/1 1/1to0/1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="24" depart="24.00" departLane="best" departPos="random_free" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="15.38" probability="1.00000000" edges="2/1to3/1 3/1to3/2 3/2to4/2 4/2to4/1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="25" depart="25.00" departLane="best" departPos="random_free" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="27.79" probability="1.00000000" edges="2/0to1/0 1/0to1/1 1/1to1/2 1/2to2/2 2/2to3/2 3/2to4/2 4/2to4/1"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="26" depart="26.00" departLane="best" departPos="random_free" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="23.93" probability="1.00000000" edges="1/2to0/2 0/2to1/2 1/2to2/2 2/2to3/2 3/2to4/2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="27" depart="27.00" departLane="best" departPos="random_free" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="20.06" probability="1.00000000" edges="2/2to3/2 3/2to3/1 3/1to2/1 2/1to1/1 1/1to1/2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="28" depart="28.00" departLane="best" departPos="random_free" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="17.25" probability="1.00000000" edges="2/1to3/1 3/1to3/2 3/2to4/2 4/2to3/2"/>
+        </routeDistribution>
+    </vehicle>
+    <vehicle id="29" depart="29.00" departLane="best" departPos="random_free" departSpeed="max">
+        <routeDistribution last="0">
+            <route cost="19.09" probability="1.00000000" edges="0/2to1/2 1/2to2/2 2/2to3/2 3/2to2/2"/>
+        </routeDistribution>
+    </vehicle>
+</routes>

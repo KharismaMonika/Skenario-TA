@@ -48,8 +48,8 @@ create-god $val(nn)
 			 -topoInstance $topo \
 			 -agentTrace ON \
 			 -routerTrace ON \
-			 -macTrace ON \
-			 -movementTrace ON
+			 -macTrace OFF \
+			 -movementTrace OFF
 			 
 	for {set i 0} {$i < $val(nn) } { incr i } {
 		set node_($i) [$ns node]	
