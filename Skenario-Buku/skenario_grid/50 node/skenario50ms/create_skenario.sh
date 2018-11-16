@@ -11,8 +11,6 @@ do
 		python /usr/share/sumo/tools/traceExporter.py --fcd-input=skenario.xml --ns2mobility-output=skenario.tcl
 		python delete.py
 		python atur.py
-		sh run-ns.sh
-		
 	cd ..
 done	
 	

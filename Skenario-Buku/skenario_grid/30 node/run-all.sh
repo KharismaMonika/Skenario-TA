@@ -1,13 +1,13 @@
 #!/bin/bash
 
 
-for (( i = 45; i < 50; i+=5 )); do
+for (( i = 25; i < 55; i+=5 )); do
 	for (( j = 1; j <= 10; j++ )); do
 		echo "skenario"$i"ms/skenario"$j
 		cd "skenario"$i"ms/skenario"$j
 		# sh "run-ns.sh"
-		ns scen.tcl
-		# mdsdv scen.tcl
+		#ns scen.tcl
+		mdsdv scen.tcl
 		cd "../../" 
 	done
 done

@@ -10,7 +10,7 @@
 # 	done
 # done
 
-for (( i = 45; i < 50; i+=5 )); do
+for (( i = 25; i < 55; i+=5 )); do
 	# printf "\n";
 	# echo "skenario"$i"ms"
 	for (( j = 1; j <= 10; j++ )); do
